@@ -26,7 +26,7 @@ cupidcr4wl **will** search and return results for platforms that host content fo
 
 1) Clone the repository:
 
-&nbsp;&nbsp;&nbsp;&nbsp;```git clone https://github.com/OSINTI4L/cupidcr4wl.git```
+&nbsp;&nbsp;&nbsp;&nbsp;```git clone https://github.com/OSINTI4L/cupidcr4wl```
 
 
 2) Change directories to cupidcr4wl:
