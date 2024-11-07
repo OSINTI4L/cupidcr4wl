@@ -24,6 +24,48 @@
             ],
             "category": "dating, hook-up, and social"
         },
+	"Tumblr": {
+            "url": "https://www.tumblr.com/{username}",
+            "check_text": [
+                "follow",
+                "posts"
+            ],
+              "not_found_text": [
+                "whtaever you were looking for"
+            ],
+            "category": "dating, hook-up, and social"
+        },
+	"Deviantart": {
+            "url": "https://www.deviantart.com/{username}",
+            "check_text": [
+                "favourites",
+                "gallery"
+            ],
+              "not_found_text": [
+                "llama not found"
+            ],
+            "category": "dating, hook-up, and social"
+        },
+	"Wattpad": {
+            "url": "https://www.wattpad.com/user/{username}",
+            "check_text": [
+                "rss -"
+            ],
+              "not_found_text": [
+                "wattpad - where stories live"
+            ],
+            "category": "dating, hook-up, and social"
+        },
+	"FurAffinity": {
+            "url": "https://www.furaffinity.net/user/{username}",
+            "check_text": [
+                "<title>Userpage of"
+            ],
+              "not_found_text": [
+                "<title>System Error</title>"
+            ],
+            "category": "dating, hook-up, and social"
+        },
 	"Tagged": {
             "url": "https://www.tagged.com/{username}",
             "check_text": [
