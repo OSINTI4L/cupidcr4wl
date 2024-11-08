@@ -66,7 +66,6 @@ Inversely, not_found_text are html code snippets that are found on a **NON-VALID
 2. You will be redirected to an "account not found page", 404 page, site landing page, or similar.
 3. Right click > View Page Source.
 4. Parse and list html code that is present **ONLY** on the **NON-VALID** account page.
-(you can also use an online html compare tool to hasten the parsing)
 
 Multiple html snippets can be added to this section using commas:
 ```
@@ -82,8 +81,7 @@ You can see examples of html parsed code snippets used for the purposes of ```ch
 It is important that the ```check_text``` and ```not_found_text``` are accurate as to ensure good results by cupidcr4wl. My typical workflow to ensure this is:
 1. Open the page source code of a known good account.
 2. Open the page source code of an invalid account page in a second tab.
-3. Find unique html code snippets and use CTRL+F to ensure they are unique to each respective page by searching the snippets against the opposite pages' source code.
-(you can also use an online html compare tool to hasten the parsing)
+3. Find unique html code snippets and use CTRL+F to ensure they are unique to each respective page by searching the snippets against the opposite pages' source code. You can also use an online html compare tool to hasten the parsing.
 
 ### Category
 Add the category type so that cupidcr4wl will display results to their respective categories.
