@@ -272,7 +272,17 @@
                 "<title>Page Not Found</title>",
                 "body--http-status http-error-page status-404"
             ],
-            "category": "adult video, photo, and camming"       
+            "category": "adult video, photo, and camming"
+        },
+	"Sext Panther": {
+            "url": "https://www.sexpanther.com.com/{username}/",
+            "check_text": [
+                "media.sextpanther.com/v2"
+            ],
+              "not_found_text": [
+                "localhost"
+            ],
+            "category": "adult video, photo, and camming"
          },
                 "XNXX Pornstars": {
             "url": "https://www.xnxx.com/pornstar/{username}",
@@ -632,7 +642,7 @@
             ],
             "category": "escort"
          },
-                "MajorEscorts (London, UK)": {
+                "Major Escorts (London, UK)": {
             "url": "https://majorescorts.co.uk/all-london-escorts/{username}/",
             "check_text": [
                 "SERVICES"
@@ -769,6 +779,67 @@
                 "404 NOT FOUND",
                 "Oops! That page can't be found!",
                 "Page not found"
+            ],
+            "category": "escort"
+        },
+	"Felines Escort": {
+            "url": "https://www.felinesescort.com/en/escort-girl/{username}",
+            "check_text": [
+                "photos",
+                "about"
+            ],
+              "not_found_text": [
+                "page not found"
+            ],
+            "category": "escort"
+        },
+	"Aphrodite Agency (Europe)": {
+            "url": "https://www.aphrodite-agency.com/en/models/{username}",
+            "check_text": [
+                "more about"
+            ],
+              "not_found_text": [
+                "meet high class escorts"
+            ],
+            "category": "escort"
+        },
+	"Grazia (International)": {
+            "url": "https://grazia-escort.com/en/models/{username}/",
+            "check_text": [
+                "book now"
+            ],
+              "not_found_text": [
+                "<title>Grazia"
+            ],
+            "category": "escort"
+        },
+	"Perla Di Mare (International)": {
+            "url": "https://www.perla-di-mare.eu/escort/{username}/",
+            "check_text": [
+                "located in"
+            ],
+              "not_found_text": [
+                "nothing found"
+            ],
+            "category": "escort"
+        },
+	"Society Service Escorts (Holland & Belgium)": {
+            "url": "https://www.societyservice.com/escort/{username}",
+            "check_text": [
+                "profile"
+            ],
+              "not_found_text": [
+                "find your perfect"
+            ],
+            "category": "escort"
+        },
+	"Society Service Gigolos (Holland & Belgium)": {
+            "url": "https://www.societyservice.com/gigolo/{username}",
+            "check_text": [
+                "profile"
+            ],
+              "not_found_text": [
+                "find your perfect"
             ],
             "category": "escort"
          },
