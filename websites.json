@@ -275,7 +275,7 @@
             "category": "adult video, photo, and camming"
         },
 	"Sext Panther": {
-            "url": "https://www.sexpanther.com.com/{username}/",
+            "url": "https://www.sextpanther.com/{username}",
             "check_text": [
                 "media.sextpanther.com/v2"
             ],
