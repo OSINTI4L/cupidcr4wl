@@ -92,4 +92,4 @@ The current categories are:
 "escort"
 ```
 ### Test for accuracy
-Testing can be done by searching a random string of characters "safgdh543g24" and a known good account name "john" with cupidcr4wl after you have added the entry to the websites.json file. The random string of characters should return no results and the known good account should be listed as account found (or possible account found). You can also use ```--debug``` mode to receive more technical detail about the search results (shows HTTTP response codes and lists ```check_text``` ```not_found_text``` results).
+Testing can be done by searching a random string of characters e.g., "safgdh543g24" and a known good account name e.g., "john" with cupidcr4wl after you have added the entry to the websites.json file. The random string of characters should return no results and the known good account should be listed as account found (or possible account found). You can also use ```--debug``` mode to receive more technical detail about the search results (shows HTTP response codes and lists ```check_text``` ```not_found_text``` results).
