@@ -80,4 +80,6 @@ options:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username --debug```
 
-&nbsp;&nbsp;&nbsp;&nbsp;(More can be read on this mode in the wiki documentation)
+&nbsp;&nbsp;&nbsp;&nbsp;(More can be read on this mode in the documentation)
+
+By default, cupidcr4wl will only display "Account found" and "Possible account found" results. If no account was found it will not be displayed. The --debug argument allows the user to see the "No account found" results if needed. This is done intentionally to reduce the "spaminess" of the results.
