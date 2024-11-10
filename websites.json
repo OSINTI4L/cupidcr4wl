@@ -725,18 +725,6 @@
             ],
             "category": "escort"
          },
-                "Massage Adagio (Montreal, Canada)": {
-            "url": "https://massageadagio.com/massage/{username}/",
-            "check_text": [
-                "Age"
-            ],
-              "not_found_text": [
-                "Not Found",
-                "not found on this server.",
-                "The page you are looking for is not here."
-            ],
-            "category": "escort"
-         },
                 "Massage Red Velvet Tug (Uganda, Africa)": {
             "url": "https://redvelvetug.com/listing/{username}/",
             "check_text": [
