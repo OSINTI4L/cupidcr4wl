@@ -96,7 +96,8 @@
                 "/profile/"
             ],
               "not_found_text": [
-                "sign up for free"
+                "sign up for free",
+		"Find Intimate Encounters"
             ],
             "category": "dating, hook-up, and social"
         },
@@ -108,7 +109,8 @@
               "not_found_text": [
                 "https://adultfriendfinder.com/p/register.cgi",
                 "Sign up for free at AdultFriendFinder",
-                "register, sign up, join, AdultFriendFinder"
+                "register, sign up, join, AdultFriendFinder",
+		"The World's Largest Casual Personals Site."
             ],
             "category": "dating, hook-up, and social"
         },
@@ -837,11 +839,11 @@
 	"Society Service Escorts (Holland & Belgium)": {
             "url": "https://www.societyservice.com/escort/{username}",
             "check_text": [
-                "profile",
-		"we are sorry"
+                "profile"
             ],
               "not_found_text": [
-                "find your perfect"
+                "find your perfect",
+		"we are sorry"
             ],
             "category": "escort"
         },
