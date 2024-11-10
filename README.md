@@ -18,7 +18,7 @@ cupidcr4wl **will** search and return results for platforms that host content fo
 
 ## [Installation](#installation) | [Usage](#usage) | [Contributing](https://github.com/OSINTI4L/cupidcr4wl/blob/main/.github/CONTRIBUTING.md) | [Documentation](https://github.com/OSINTI4L/cupidcr4wl/wiki)
 
-![demogifcomp](https://github.com/user-attachments/assets/e2853512-6fae-4b01-a173-b25995a2de69)
+![demogifcomp](https://github.com/OSINTI4L/cupidcr4wl/wiki/Usage-Options)
 
 </div>
 
