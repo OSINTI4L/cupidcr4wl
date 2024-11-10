@@ -16,7 +16,7 @@ The site list that cupidcr4wl utilizes for searching is updated for accuracy and
 
 cupidcr4wl **will** search and return results for platforms that host content for mature adult audiences. You are expected to use this tool in accordance with the laws and regulations in your respective jurisdiction(s). If while using cupidcr4wl you believe that you have discovered a platform hosting illegal content, you can utilize the [law enforcement reporting resources](https://github.com/OSINTI4L/cupidcr4wl/blob/main/LEReportingResources.md) section to report it.
 
-## [Installation](#installation) | [Usage](#usage) | [Contributing](https://github.com/OSINTI4L/cupidcr4wl/blob/main/.github/CONTRIBUTING.md)
+## [Installation](#installation) | [Usage](#usage) | [Contributing](https://github.com/OSINTI4L/cupidcr4wl/blob/main/.github/CONTRIBUTING.md) | [Documentation](https://github.com/OSINTI4L/cupidcr4wl/wiki)
 
 ![demogifcomp](https://github.com/user-attachments/assets/e2853512-6fae-4b01-a173-b25995a2de69)
 
@@ -80,6 +80,6 @@ options:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username --debug```
 
-&nbsp;&nbsp;&nbsp;&nbsp;(More can be read on this mode in the documentation)
+&nbsp;&nbsp;&nbsp;&nbsp;(More can be read on this mode in the [documentation](https://github.com/OSINTI4L/cupidcr4wl/wiki))
 
 By default, cupidcr4wl will only display "Account found" and "Possible account found" results. If no account was found it will not be displayed. The --debug argument allows the user to see the "No account found" results if needed. This is done intentionally to reduce the "spaminess" of the results.
