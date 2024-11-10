@@ -27,7 +27,8 @@
 	"Telegram": {
             "url": "https://t.me/{username}",
             "check_text": [
-                "tgme_profile_title"
+                "tgme_profile_title",
+		"tgme_page_extra"
             ],
               "not_found_text": [
                 "noindex, nofollow"
