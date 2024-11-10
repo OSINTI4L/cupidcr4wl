@@ -752,22 +752,6 @@
             ],
             "category": "escort"
          },
-                "Target Esscorts (Berlin, Germany)": {
-            "url": "https://targetescorts.com/ladies/{username}.htm",
-            "check_text": [
-                "Age"
-            ],
-              "not_found_text": [
-                "Not Found",
-                "not found on this server.",
-                "The page you are looking for is not here.",
-                "404 NOT FOUND",
-                "Oops! That page can't be found!",
-                "Page not found",
-                "P404 page for London Stars"
-            ],
-            "category": "escort"
-         },
                 "Top Companions (Brussels, Belgium)": {
             "url": "https://topcompanions.com/models/{username}",
             "check_text": [
