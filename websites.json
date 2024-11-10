@@ -837,7 +837,8 @@
 	"Society Service Escorts (Holland & Belgium)": {
             "url": "https://www.societyservice.com/escort/{username}",
             "check_text": [
-                "profile"
+                "profile",
+		"we are sorry"
             ],
               "not_found_text": [
                 "find your perfect"
