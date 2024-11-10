@@ -24,6 +24,16 @@
             ],
             "category": "dating, hook-up, and social"
         },
+	"Telegram": {
+            "url": "https://t.me/{username}",
+            "check_text": [
+                "tgme_profile_title"
+            ],
+              "not_found_text": [
+                "noindex, nofollow"
+            ],
+            "category": "dating, hook-up, and social"
+        },
 	"Tumblr": {
             "url": "https://www.tumblr.com/{username}",
             "check_text": [
