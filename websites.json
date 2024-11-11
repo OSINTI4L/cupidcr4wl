@@ -159,7 +159,7 @@
             ],
             "category": "dating, hook-up, and social"
         },
-	"Pornhub Pornstars": {
+	"Pornhub (pornstars)": {
             "url": "https://www.pornhub.com/pornstar/{username}",
             "check_text": [
                 "<div id=\"avatarPicture\">"
@@ -173,7 +173,7 @@
             ],
             "category": "adult video, photo, and camming"
         },
-        "Pornhub Models": {
+        "Pornhub (models)": {
             "url": "https://www.pornhub.com/model/{username}",
             "check_text": [
                 "Model Rank            </div>",
@@ -188,7 +188,7 @@
             ],
             "category": "adult video, photo, and camming"
          },
-        "Pornhub Users": {
+        "Pornhub (users)": {
             "url": "https://www.pornhub.com/users/{username}",
             "check_text": [
                 "<title>{username}",
@@ -202,7 +202,7 @@
             ],
             "category": "adult video, photo, and camming"
          },
-        "Pornhub Channels": {
+        "Pornhub (channels)": {
             "url": "https://www.pornhub.com/channels/{username}",
             "check_text": [
                 "<title>{username}",
@@ -217,7 +217,7 @@
             ],
             "category": "adult video, photo, and camming"
          },
-        "XVIDEOS Pornstars": {
+        "XVIDEOS (pornstars)": {
             "url": "https://www.xvideos.com/pornstars/{username}",
             "check_text": [
                 "<title>{username} - Channel page - XVIDEOS.COM</title>",
@@ -234,7 +234,7 @@
             ],
             "category": "adult video, photo, and camming"
          },
-        "XVIDEOS Users/Channels": {
+        "XVIDEOS (users/channels)": {
             "url": "https://www.xvideos.com/{username}",
             "check_text": [
                 "<title>{username} - Channel page - XVIDEOS.COM</title>",
@@ -251,7 +251,7 @@
             ],
             "category": "adult video, photo, and camming" 
          },
-        "XVIDEOS Profiles": {
+        "XVIDEOS (profiles)": {
             "url": "https://www.xvideos.com/profiles/{username}",
             "check_text": [
                 "<title>{username} - Channel page - XVIDEOS.COM</title>",
@@ -268,7 +268,7 @@
             ],
             "category": "adult video, photo, and camming"       
          },
-        "Redtube Pornstars": {
+        "Redtube (pornstars)": {
             "url": "https://www.redtube.com/pornstar/{username}",
             "check_text": [
                 "index, follow",
@@ -282,7 +282,7 @@
             ],
             "category": "adult video, photo, and camming"   
          },
-        "Redtube Users": {
+        "Redtube (users)": {
             "url": "https://www.redtube.com/users/{username}",
             "check_text": [
                 "<title>{username}&apos;s Profile - RedTube</title>",
@@ -297,7 +297,7 @@
             ],
             "category": "adult video, photo, and camming"       
          },
-        "Redtube Channels": {
+        "Redtube (channels)": {
             "url": "https://www.redtube.com/channels/{username}",
             "check_text": [
                 "<title>{username} Channel Page: Free Porn Movies | Redtube</title>",
@@ -322,7 +322,7 @@
             ],
             "category": "adult video, photo, and camming"
          },
-                "XNXX Pornstars": {
+                "XNXX (pornstars)": {
             "url": "https://www.xnxx.com/pornstar/{username}",
             "check_text": [
                 "Model page"
@@ -338,7 +338,7 @@
             ],
             "category": "adult video, photo, and camming"     
          },
-                "XNXX Porn-Maker": {
+                "XNXX (porn-maker)": {
             "url": "https://www.xnxx.com/porn-maker/{username}",
             "check_text": [
                 "Porn Maker"
@@ -354,7 +354,7 @@
             ],
             "category": "adult video, photo, and camming"
          },
-                "XHAMSTER Users": {
+                "XHAMSTER (users)": {
             "url": "https://www.xhamster.com/users/{username}",
             "check_text": [
                 "{username}",
@@ -379,7 +379,7 @@
             ],
             "category": "adult video, photo, and camming"
         },
-	"Jerkmate Pornstars": {
+	"Jerkmate (pornstars)": {
             "url": "https://jerkmate.com/pornstar/{username}",
             "check_text": [
                 "jerkmate.com/pornstar"
@@ -389,7 +389,7 @@
             ],
             "category": "adult video, photo, and camming"
         },
-	"Jerkmate Cams": {
+	"Jerkmate (cams)": {
             "url": "https://jerkmate.com/cam/{username}",
             "check_text": [
                 "cam profile:"
@@ -421,7 +421,7 @@
             ],
             "category": "adult video, photo, and camming"
          },
-                "Hdporn92 Actors": {
+                "Hdporn92 (actors)": {
             "url": "https://www.hdporn92.com/actor/{username}/",
             "check_text": [
                 "Video Actor"
@@ -452,7 +452,7 @@
             ],
             "category": "adult video, photo, and camming"
          },
-                "YouPorn Uservids": {
+                "YouPorn (uservids)": {
             "url": "https://www.youporn.com/uservids/{username}/",
             "check_text": [
                 "free porn videos"
@@ -464,7 +464,7 @@
             ],
             "category": "adult video, photo, and camming"
          },
-                "YouPorn (Channels)": {
+                "YouPorn (channels)": {
             "url": "https://www.youporn.com/channel/{username}/",
             "check_text": [
                 "ranking"
@@ -474,7 +474,7 @@
             ],
             "category": "adult video, photo, and camming"
          },
-                "YouPorn (Pornstars)": {
+                "YouPorn (pornstars)": {
             "url": "https://www.youporn.com/pornstar/{username}/",
             "check_text": [
                 "porn videos"
@@ -557,7 +557,7 @@
             ],
             "category": "adult video, photo, and camming"
         },
-	"CamWithHer Users": {
+	"CamWithHer (users)": {
             "url": "https://camwithher.com/{username}",
             "check_text": [
                 "Free Live Nude Sex Show",
@@ -568,7 +568,7 @@
             ],
             "category": "adult video, photo, and camming"
         },
-	"CamWithHer Search": {
+	"CamWithHer (search)": {
             "url": "https://camwithher.com/search/{username}",
             "check_text": [
                 "live sex cams below:"
@@ -630,7 +630,7 @@
             ],
             "category": "escort"
          },
-                "OneBackPage (Female Escorts)": {
+                "OneBackPage (female escorts)": {
             "url": "https://onebackpage.com/search/pattern,{username}/category,98",
             "check_text": [
                 "search results"
@@ -641,7 +641,7 @@
             ],
             "category": "escort"
          },
-                "OneBackPage (Trans Escorts)": {
+                "OneBackPage (trans escorts)": {
             "url": "https://onebackpage.com/search/pattern,{username}/category,1o2",
             "check_text": [
                 "search results"
@@ -652,7 +652,7 @@
             ],
             "category": "escort"
          },
-                "OneBackPage (Body Rubs)": {
+                "OneBackPage (body rubs)": {
             "url": "https://onebackpage.com/search/pattern,{username}/category,99",
             "check_text": [
                 "search results"
@@ -663,7 +663,7 @@
             ],
             "category": "escort"
          },
-                "OneBackPage (Dom and Fetishes)": {
+                "OneBackPage (dom and fetishes)": {
             "url": "https://onebackpage.com/search/pattern,{username}/category,1o1",
             "check_text": [
                 "search results"
