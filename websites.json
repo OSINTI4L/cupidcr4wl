@@ -134,6 +134,30 @@
                 "findafemdom.com/?language"
             ],
             "category": "dating, hook-up, and social"
+         },
+                "Quora": {
+            "url": "https://www.quora.com/profile/{username}",
+            "check_text": [
+                "followers"
+            ],
+              "not_found_text": [
+                "Page Not Found",
+                "No Stories"
+            ],
+            "category": "dating, hook-up, and social"
+         },
+                "Reddit": {
+            "url": "https://www.reddit.com/user/{username}/",
+            "check_text": [
+                "follow",
+                "posts",
+                "karma",
+                "cake day"
+            ],
+              "not_found_text": [
+                "sorry, nobody on reddit goes by that name."
+            ],
+            "category": "dating, hook-up, and social"
         },
 	"Pornhub Pornstars": {
             "url": "https://www.pornhub.com/pornstar/{username}",
@@ -397,17 +421,6 @@
             ],
             "category": "adult video, photo, and camming"
          },
-                "Quora": {
-            "url": "https://www.quora.com/profile/{username}",
-            "check_text": [
-                "followers"
-            ],
-              "not_found_text": [
-                "Page Not Found",
-                "No Stories"
-            ],
-            "category": "dating, hook-up, and social"
-         },
                 "Hdporn92 Actors": {
             "url": "https://www.hdporn92.com/actor/{username}/",
             "check_text": [
@@ -417,19 +430,6 @@
                 "Page not found"
             ],
             "category": "adult video, photo, and camming"
-         },
-                "Reddit": {
-            "url": "https://www.reddit.com/user/{username}/",
-            "check_text": [
-                "follow",
-                "posts",
-                "karma",
-                "cake day"
-            ],
-              "not_found_text": [
-                "sorry, nobody on reddit goes by that name."
-            ],
-            "category": "dating, hook-up, and social"
          },
                 "RedGifs": {
             "url": "https://www.redgifs.com/users/{username}/",
@@ -555,7 +555,49 @@
               "not_found_text": [
                 "Error, page not found"
             ],
-            "category": "adult video, photo, and camming"  
+            "category": "adult video, photo, and camming"
+        },
+	"CamWithHer Users": {
+            "url": "https://camwithher.com/{username}",
+            "check_text": [
+                "Free Live Nude Sex Show",
+                "bio"
+            ],
+              "not_found_text": [
+                "page not found"
+            ],
+            "category": "adult video, photo, and camming"
+        },
+	"CamWithHer Search": {
+            "url": "https://camwithher.com/search/{username}",
+            "check_text": [
+                "live sex cams below:"
+            ],
+              "not_found_text": [
+                "related cams to"
+            ],
+            "category": "adult video, photo, and camming"         
+        },
+	"Xcams": {
+            "url": "https://www.xcams.com/profile/{username}/",
+            "check_text": [
+                "years old"
+            ],
+              "not_found_text": [
+                "not found"
+            ],
+            "category": "adult video, photo, and camming"
+        },
+	"Xlovecam": {
+            "url": "https://www.xlovecam.com/en/model/{username}/",
+            "check_text": [
+                "years old",
+                "about me"
+            ],
+              "not_found_text": [
+                "error 404"
+            ],
+            "category": "adult video, photo, and camming"
          },
                 "Slixa": {
             "url": "https://www.slixa.com/{username}",
