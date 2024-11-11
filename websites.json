@@ -354,6 +354,48 @@
                 "Oh damn!"
             ],
             "category": "adult video, photo, and camming"
+        },
+	"Jerkmate Pornstars": {
+            "url": "https://jerkmate.com/pornstar/{username}",
+            "check_text": [
+                "jerkmate.com/pornstar"
+            ],
+              "not_found_text": [
+                "page not found - 404"
+            ],
+            "category": "adult video, photo, and camming"
+        },
+	"Jerkmate Cams": {
+            "url": "https://jerkmate.com/cam/{username}",
+            "check_text": [
+                "cam profile:"
+            ],
+              "not_found_text": [
+                "page not found - 404"
+            ],
+            "category": "adult video, photo, and camming"         
+        },
+	"Slut Roulette": {
+            "url": "https://slutroulette.com/cams/{username}",
+            "check_text": [
+                "in Free Chat Roulette",
+                "slutroulette.com/cams/"
+            ],
+              "not_found_text": [
+                "noindex,nofollow"
+            ],
+            "category": "adult video, photo, and camming"
+        },
+	"Camlust": {
+            "url": "https://camlust.com/en/models/{username}",
+            "check_text": [
+                "in Free Chat Roulette",
+                "Live Skype sex show with"
+            ],
+              "not_found_text": [
+                "page not found"
+            ],
+            "category": "adult video, photo, and camming"
          },
                 "Quora": {
             "url": "https://www.quora.com/profile/{username}",
