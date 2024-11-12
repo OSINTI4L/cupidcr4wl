@@ -230,13 +230,13 @@ def parse_arguments():
     parser.add_argument(
         "--sites",
         action="store_true",
-        help="Print all sites that cupidcr4wl will check."
+        help="Print all sites that cupidcr4wl will search."
     )
 
     parser.add_argument(
         "--export-sites",
         action="store_true",
-        help="Export the list of sites and their URLs to a file named 'cc_sitelist.txt' in the current working directory."
+        help="Export the list of sites that cupidcr4wl will search to a file named 'cc_sitelist.txt' in the current working directory."
     )
     
     return parser.parse_args()
