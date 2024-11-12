@@ -179,6 +179,27 @@ def print_sites(file_path='websites.json'):
     except json.JSONDecodeError:
         console.print("[bold red]Error decoding JSON from websites.json![/bold red]")
 
+def export_sites(file_path='websites.json'):
+    """Export all site names and their URLs from the JSON file to 'cc_sitelist.txt'."""
+    try:
+        with open(file_path, 'r') as file:
+            data = json.load(file)
+
+            # Open 'cc_sitelist.txt' for writing
+            with open('cc_sitelist.txt', 'w') as file_output:
+                for site, info in data['websites'].items():
+                    url = info.get("url", "No URL available")
+                    message = f"- {site}: {url}"
+                    file_output.write(message + "\n")
+        
+        # Print a success message to the console
+        console.print("[bold cyan]Site list has been exported to the current working directory as: cc_sitelist.txt[/bold cyan]")
+
+    except FileNotFoundError:
+        console.print("[bold red]websites.json file not found![/bold red]")
+    except json.JSONDecodeError:
+        console.print("[bold red]Error decoding JSON from websites.json![/bold red]")
+
 def parse_arguments():
     """Parse command-line arguments for the script."""
     parser = argparse.ArgumentParser(
@@ -212,6 +233,12 @@ def parse_arguments():
         help="Print all sites that cupidcr4wl will check."
     )
 
+    parser.add_argument(
+        "--export-sites",
+        action="store_true",
+        help="Export the list of sites and their URLs to a file named 'cc_sitelist.txt' in the current working directory."
+    )
+    
     return parser.parse_args()
 
 def main():
@@ -220,15 +247,21 @@ def main():
     args = parse_arguments()  # Parse command-line arguments
 
     # Check if no usernames are provided and print usage information
-    if args.u is None and not args.sites:
+    if args.u is None and not args.sites and not args.export_sites:
         console.print("[bold red]Error: Username and arguments required, see -h or --help.[/bold red]")
         return
 
     user_agents = load_user_agents('user_agents.txt')  # Load user agents from file
 
+    # Export site list to a file if --export-sites is specified
+    if args.export_sites:
+        export_sites()
+        return  # Exit after exporting sites
+
+    # Print site list to the console if --sites is specified
     if args.sites:
-        print_sites()  # Print available sites and their URLs
-        return  # Exit after printing sites
+        print_sites()
+        return
 
     usernames = args.u.split(",") if args.u else []  # Split usernames by comma if provided
 
