@@ -84,7 +84,7 @@ options:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py --export-sites```
 
-8) To run cupidcr4wl in debug mode to test for false positives/negatives:
+7) To run cupidcr4wl in debug mode to test for false positives/negatives:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username --debug```
 
