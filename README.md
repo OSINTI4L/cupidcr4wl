@@ -53,15 +53,16 @@ options:
                     
   -u USERNAME       Enter a username or multiple usernames (separated by commas) to search.
                     
-  --export-results  Search results will be exported to a text file named 'cc_results.txt'.
+  --export-results  Search results will be exported to a text file named 'cc_results.txt' in
+                    the current working directory.
                     
   --debug           Debug mode, shows HTTP response codes and check_text/not_found_text
                     matches for each site checked.
                     
   --sites           Print all sites that cupidcr4wl will search.
                     
-  --export-sites    Export the list of sites that cupidcr4wl will search to a file named
-                    'cc_sitelist.txt' in the current working directory.
+  --export-sites    Export the list of sites that cupidcr4wl will search to a text file
+                    named 'cc_sitelist.txt' in the current working directory.
 ```
 2) To perform a search of a username:
 
@@ -71,11 +72,9 @@ options:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username1,username2,username3```
 
-4) To export a copy of the search results to a text document:
+4) To export a copy of the search results to a text named 'cc_results.txt' in the current working directory:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username --export-results```
-
-&nbsp;&nbsp;&nbsp;&nbsp;The results will be saved as cc_results.txt in the current working directory.
 
 5) To view a list of all sites that cupidcr4wl will search:
 
