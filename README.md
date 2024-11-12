@@ -80,10 +80,12 @@ options:
 5) To view a list of all sites that cupidcr4wl will search:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py --sites```
-6) To export the list of all sites that cupidcr4wl will search to a text file named "cc_sitelist.txt" in the current working directory:
-```python3 cc.py --export-sites``
 
-7) To run cupidcr4wl in debug mode to test for false positives/negatives:
+6) To export the list of all sites that cupidcr4wl will search to a text file named "cc_sitelist.txt" in the current working directory:
+
+&nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py --export-sites```
+
+8) To run cupidcr4wl in debug mode to test for false positives/negatives:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username --debug```
 
