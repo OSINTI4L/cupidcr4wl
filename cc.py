@@ -218,7 +218,7 @@ def parse_arguments():
     parser.add_argument(
         "--export-results",
         action="store_true",
-        help="Search results will be exported to a text file named 'cc_results.txt'."
+        help="Search results will be exported to a text file named 'cc_results.txt' in the current working directory."
     )
 
     parser.add_argument(
@@ -236,7 +236,7 @@ def parse_arguments():
     parser.add_argument(
         "--export-sites",
         action="store_true",
-        help="Export the list of sites that cupidcr4wl will search to a file named 'cc_sitelist.txt' in the current working directory."
+        help="Export the list of sites that cupidcr4wl will search to a text file named 'cc_sitelist.txt' in the current working directory."
     )
     
     return parser.parse_args()
