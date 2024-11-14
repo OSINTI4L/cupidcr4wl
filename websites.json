@@ -152,7 +152,8 @@
                 "follow",
                 "posts",
                 "karma",
-                "cake day"
+                "cake day",
+		"posted yet"
             ],
               "not_found_text": [
                 "sorry, nobody on reddit goes by that name."
