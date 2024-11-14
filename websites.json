@@ -432,7 +432,7 @@
             "category": "adult video, photo, and camming"
          },
                 "RedGifs": {
-            "url": "https://www.redgifs.com/users/{username}/",
+            "url": "https://www.redgifs.com/users/{username}",
             "check_text": [
                 "about"
             ],
