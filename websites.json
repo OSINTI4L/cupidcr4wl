@@ -598,6 +598,36 @@
                 "error 404"
             ],
             "category": "adult video, photo, and camming"
+        },
+	"FrolicMe (models)": {
+            "url": "https://www.frolicme.com/models/{username}/",
+            "check_text": [
+                "naughty content featuring"
+            ],
+              "not_found_text": [
+                "page not found"
+            ],
+            "category": "adult video, photo, and camming"
+        },
+	"Bellesa": {
+            "url": "https://www.bellesa.co/search?q={username}",
+            "check_text": [
+                "views"
+            ],
+              "not_found_text": [
+                "no results"
+            ],
+            "category": "adult video, photo, and camming"        
+        },
+	"PinkLabel": {
+            "url": "https://www.pinklabel.tv/on-demand/search/{username}",
+            "check_text": [
+                "show me"
+            ],
+              "not_found_text": [
+                "If you can't find what you're"
+            ],
+            "category": "adult video, photo, and camming"
          },
                 "Slixa": {
             "url": "https://www.slixa.com/{username}",
