@@ -11,6 +11,20 @@
                 "Tinder | Dating, Make Friends &amp"
             ],
             "category": "dating, hook-up, and social"
+         },
+                "Reddit": {
+            "url": "https://www.reddit.com/user/{username}/",
+            "check_text": [
+                "follow",
+                "posts",
+                "karma",
+                "cake day",
+		"posted yet"
+            ],
+              "not_found_text": [
+                "sorry, nobody on reddit goes by that name."
+            ],
+            "category": "dating, hook-up, and social"
         },
 	"Snapchat": {
             "url": "https://snapchat.com/add/{username}",
@@ -143,20 +157,6 @@
               "not_found_text": [
                 "Page Not Found",
                 "No Stories"
-            ],
-            "category": "dating, hook-up, and social"
-         },
-                "Reddit": {
-            "url": "https://www.reddit.com/user/{username}/",
-            "check_text": [
-                "follow",
-                "posts",
-                "karma",
-                "cake day",
-		"posted yet"
-            ],
-              "not_found_text": [
-                "sorry, nobody on reddit goes by that name."
             ],
             "category": "dating, hook-up, and social"
         },
