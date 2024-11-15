@@ -1,6 +1,26 @@
 {
     "websites": {
-	"Tinder": {
+	"Linktree (link directory)": {
+            "url": "https://linktr.ee/{username}",
+            "check_text": [
+                "og:title"
+            ],
+              "not_found_text": [
+                "404"
+            ],
+            "category": "dating, hook-up, and social"
+        },
+	"Milkshake (link directory)": {
+            "url": "https://msha.ke/{username}/",
+            "check_text": [
+                "Milkshake Website Builder</title>"
+            ],
+              "not_found_text": [
+                "<title>Well, this is awkward...</title>"
+            ],
+            "category": "dating, hook-up, and social"
+         },
+		"Tinder": {
             "url": "https://www.tinder.com/@{username}",
             "check_text": [
                 "(@{username}) | Tinder</title>",
@@ -89,6 +109,28 @@
             ],
               "not_found_text": [
                 "<title>System Error</title>"
+            ],
+            "category": "dating, hook-up, and social"
+        },
+	"AllThingsWorn (underwear sales)": {
+            "url": "https://www.allthingsworn.com/profile/{username}",
+            "check_text": [
+                "check out"
+            ],
+              "not_found_text": [
+                "Sell Used Panties, Underwear and"
+            ],
+            "category": "dating, hook-up, and social"    
+        },
+	"Alua": {
+            "url": "https://alua.com/{username}",
+            "check_text": [
+                "free follow",
+                "invites you to join her on Alua!",
+                "invites you to join him on Alua!"
+            ],
+              "not_found_text": [
+                "Alua connects creators and fans through our unique social platform"
             ],
             "category": "dating, hook-up, and social"
         },
@@ -515,6 +557,62 @@
             ],
               "not_found_text": [
                 "Page not found"
+            ],
+            "category": "adult video, photo, and camming"
+        },
+	"Slushy": {
+            "url": "https://www.slushy.com/{username}",
+            "check_text": [
+                "chat with",
+                "subscribe"
+            ],
+              "not_found_text": [
+                "<title>undefined - Slushy</title>"
+            ],
+            "category": "adult video, photo, and camming"
+        },
+	"Admireme.vip": {
+            "url": "https://admireme.vip/{username}/",
+            "check_text": [
+                "subscribe for",
+                "post count"
+            ],
+              "not_found_text": [
+                "page not found"
+            ],
+            "category": "adult video, photo, and camming"
+        },
+	"Xpanded": {
+            "url": "https://xpanded.com/girls?search_profilename={username}",
+            "check_text": [
+                ">Xpanded TV</a>",
+                "</a> page to see call options</p>"
+            ],
+              "not_found_text": [
+                "but we were unable to find"
+            ],
+            "category": "adult video, photo, and camming"
+        },
+	"FanVue": {
+            "url": "https://www.fanvue.com/{username}",
+            "check_text": [
+                "posts",
+                "show more"
+            ],
+              "not_found_text": [
+                "page not found"
+            ],
+            "category": "adult video, photo, and camming"
+        },
+	"AdultNode": {
+            "url": "https://adultnode.com/{username}",
+            "check_text": [
+                "rank",
+                "followers",
+                "naughty"
+            ],
+              "not_found_text": [
+                "404 not found"
             ],
             "category": "adult video, photo, and camming"
          },
