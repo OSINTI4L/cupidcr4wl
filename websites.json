@@ -707,17 +707,7 @@
               "not_found_text": [
                 "page not found"
             ],
-            "category": "adult video, photo, and camming"
-        },
-	"Bellesa": {
-            "url": "https://www.bellesa.co/search?q={username}",
-            "check_text": [
-                "views"
-            ],
-              "not_found_text": [
-                "no results"
-            ],
-            "category": "adult video, photo, and camming"        
+            "category": "adult video, photo, and camming"       
         },
 	"PinkLabel": {
             "url": "https://www.pinklabel.tv/on-demand/search/{username}",
