@@ -861,12 +861,12 @@
                 "Sweet Passion Escort": {
             "url": "https://www.sweet-passion-escort.de/en/models/{username}",
             "check_text": [
-                "BOOK NOW",
-                "Age",
-                "Size"
+                "book",
+		"Sedcard"
             ],
               "not_found_text": [
-                "Could not find what you were looking for?"
+                "Could not find what you were looking for?",
+		"<title>Escort Damen"
             ],
             "category": "escort"
          },
