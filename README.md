@@ -86,8 +86,8 @@ options:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py --export-sites```
 
-7) To run cupidcr4wl in debug mode to test for false positives/negatives and display timeouts:
+7) To run cupidcr4wl in debug mode to test for false positives/negatives and display timeouts/errors:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username --debug```
 
-&nbsp;&nbsp;&nbsp;&nbsp;(more can be read on this mode in the [documentation](https://github.com/OSINTI4L/cupidcr4wl/wiki))
+&nbsp;&nbsp;&nbsp;&nbsp;(more can be read on this mode in the [documentation](https://github.com/OSINTI4L/cupidcr4wl/wiki/Usage-Options))
