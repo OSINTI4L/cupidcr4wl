@@ -19,7 +19,7 @@ ASCII_ART = r"""
   [bold cyan]_______  ______  (_)___/ /_________/ // /_      __/ /
  [bold magenta]/ ___/ / / / __ \/ / __  / ___/ ___/ // /| | /| / / / 
 [bold blue]/ /__/ /_/ / /_/ / / /_/ / /__/ /  /__  __/ |/ |/ / /  
-[bold cyan]\___/\__,_/ .___/_/\__,_/\___/_/ v1.1/_/  |__/|__/_/   
+[bold cyan]\___/\__,_/ .___/_/\__,_/\___/_/ v1.2/_/  |__/|__/_/   
          [bold magenta]/_/                                            
 """
 
@@ -139,7 +139,7 @@ def check_usernames(usernames, user_agents, write_to_file=None, debug=False):
             for category, sites in websites_by_category.items():
                 print_category_header(category, write_to_file)
 
-                with ThreadPoolExecutor(max_workers=4) as executor:
+                with ThreadPoolExecutor(max_workers=8) as executor:
                     future_to_site = {
                         executor.submit(check_single_site, username.strip(), site, info, user_agents, write_to_file, debug): site 
                         for site, info in sites.items()
