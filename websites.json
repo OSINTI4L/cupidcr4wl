@@ -81,6 +81,16 @@
             ],
             "category": "dating, hook-up, and social"
         },
+	"AskFm": {
+            "url": "https://ask.fm/{username}",
+            "check_text": [
+                "Get in touch with"
+            ],
+              "not_found_text": [
+                "apparently not anymore"
+            ],
+            "category": "dating, hook-up, and social"
+        },
 	"Deviantart": {
             "url": "https://www.deviantart.com/{username}",
             "check_text": [
@@ -190,17 +200,16 @@
                 "findafemdom.com/?language"
             ],
             "category": "dating, hook-up, and social"
-         },
-                "Quora": {
-            "url": "https://www.quora.com/profile/{username}",
+        },
+	"Fansify": {
+            "url": "https://fansify.co.uk/{username}",
             "check_text": [
-                "followers"
+                "'s profile</title>"
             ],
               "not_found_text": [
-                "Page Not Found",
-                "No Stories"
+                "<title>Fansify | Join"
             ],
-            "category": "dating, hook-up, and social"
+            "category": "adult video, photo, and camming"
         },
 	"Pornhub (pornstars)": {
             "url": "https://www.pornhub.com/pornstar/{username}",
@@ -899,22 +908,6 @@
               "not_found_text": [
                 "404",
                 "oops"
-            ],
-            "category": "escort"
-         },
-                "Naturist Paradise (London, UK)": {
-            "url": "https://naturistparadise.co.uk/asian-masseuses-in-london/{username}/",
-            "check_text": [
-                "Age",
-                "Incall pricelist"
-            ],
-              "not_found_text": [
-                "Not Found",
-                "not found on this server.",
-                "The page you are looking for is not here.",
-                "404 NOT FOUND",
-                "Oops! That page can't be found!",
-                "Page not found"
             ],
             "category": "escort"
          },
