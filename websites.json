@@ -19,6 +19,16 @@
                 "<title>Well, this is awkward...</title>"
             ],
             "category": "dating, hook-up, and social"
+        },
+	"GetAllMyLinks (link directory)": {
+            "url": "https://getallmylinks.com/{username}",
+            "check_text": [
+                "<title>GetAllMyLinks"
+            ],
+              "not_found_text": [
+                "<title>GetAllMyLinks - 404</title>"
+            ],
+            "category": "dating, hook-up, and social"
          },
 		"Tinder": {
             "url": "https://www.tinder.com/@{username}",
