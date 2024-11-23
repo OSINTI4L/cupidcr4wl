@@ -275,7 +275,7 @@
             ],
             "category": "dating, hook-up, and social"
         },
-	"Playboy app": {
+	"Playboy App": {
             "url": "https://www.playboy.com/app/{username}",
             "check_text": [
                 "exclusive content on Playboy | The Playboy Club<title>"
@@ -748,6 +748,26 @@
             ],
               "not_found_text": [
                 "Search by Username"
+            ],
+            "category": "adult video, photo, and camming"
+        },
+	"Babestation Cams (performer)": {
+            "url": "https://babestationcams.com/performer/{username}",
+            "check_text": [
+                "Babestation Cams</title>"
+            ],
+              "not_found_text": [
+                "<title>Not Found</title>"
+            ],
+            "category": "adult video, photo, and camming"
+        },
+	"Babestation Cams (search)": {
+            "url": "https://babestationcams.com/search/{username}",
+            "check_text": [
+                "showing"
+            ],
+              "not_found_text": [
+                "no performers"
             ],
             "category": "adult video, photo, and camming"
          },
