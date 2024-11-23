@@ -51,6 +51,16 @@
             ],
             "category": "link directory, gifting, and payment"
         },
+	"BuyMeACoffee (gifting)": {
+            "url": "https://buymeacoffee.com/{username}",
+            "check_text": [
+                "og:title"
+            ],
+              "not_found_text": [
+                "<title inertia>Not found"
+            ],
+            "category": "link directory, gifting, and payment"
+        },
 	"AllThingsWorn (underwear sales)": {
             "url": "https://www.allthingsworn.com/profile/{username}",
             "check_text": [
@@ -60,8 +70,18 @@
                 "Sell Used Panties, Underwear and"
             ],
             "category": "link directory, gifting, and payment"
+        },
+	"CashApp (payment)": {
+            "url": "https://cash.app/${username}",
+            "check_text": [
+                "on Cash App</title>"
+            ],
+              "not_found_text": [
+                "Page Not Found</title>"
+            ],
+            "category": "link directories, gifting, and payment"
          },
-		"Tinder": {
+		"Tinder (dating)": {
             "url": "https://www.tinder.com/@{username}",
             "check_text": [
                 "(@{username}) | Tinder</title>",
@@ -72,8 +92,65 @@
                 "Tinder | Dating, Make Friends &amp"
             ],
             "category": "dating, hook-up, and social"
+        },
+	"Tagged (dating)": {
+            "url": "https://www.tagged.com/{username}",
+            "check_text": [
+                "https://tagged.com/{username}",
+                "robots"
+            ],
+              "not_found_text": [
+                "Tagged makes it easy",
+                "meet New People",
+                "verify-v1"
+            ],
+            "category": "dating, hook-up, and social"
+        },
+	"MenNation (hook-up)": {
+            "url": "https://www.mennation.com/profile/{username}",
+            "check_text": [
+                "/profile/"
+            ],
+              "not_found_text": [
+                "sign up for free",
+		"Find Intimate Encounters"
+            ],
+            "category": "dating, hook-up, and social"
+        },
+	"FriendFinder-X (hook-up)": {
+            "url": "https://www.friendfinder-x.com/profile/{username}",
+            "check_text": [
+                ">Profile</a>"
+            ],
+              "not_found_text": [
+                "https://adultfriendfinder.com/p/register.cgi",
+                "Sign up for free at AdultFriendFinder",
+                "register, sign up, join, AdultFriendFinder",
+		"The World's Largest Casual Personals Site."
+            ],
+            "category": "dating, hook-up, and social"
+        },
+	"BDSMSINGLES (hook-up)": {
+            "url": "https://www.bdsmsingles.com/members/{username}",
+            "check_text": [
+                "<title>Profile"
+            ],
+              "not_found_text": [
+                "bdsmsingles.com/?language"
+            ],
+            "category": "dating, hook-up, and social"
+        },
+	"FindAFemDom (hook-up)": {
+            "url": "https://app.findafemdom.com/members/{username}",
+            "check_text": [
+                "<title>Profile"
+            ],
+              "not_found_text": [
+                "findafemdom.com/?language"
+            ],
+            "category": "dating, hook-up, and social"
          },
-                "Reddit": {
+                "Reddit (social)": {
             "url": "https://www.reddit.com/user/{username}/",
             "check_text": [
                 "follow",
@@ -87,7 +164,7 @@
             ],
             "category": "dating, hook-up, and social"
         },
-	"Snapchat": {
+	"Snapchat (social)": {
             "url": "https://snapchat.com/add/{username}",
             "check_text": [
                 "Header_displayNameText",
@@ -99,7 +176,7 @@
             ],
             "category": "dating, hook-up, and social"
         },
-	"Telegram": {
+	"Telegram (social)": {
             "url": "https://t.me/{username}",
             "check_text": [
                 "tgme_profile_title",
@@ -111,7 +188,7 @@
             ],
             "category": "dating, hook-up, and social"
         },
-	"Tumblr": {
+	"Tumblr (social)": {
             "url": "https://www.tumblr.com/{username}",
             "check_text": [
                 "follow",
@@ -122,7 +199,7 @@
             ],
             "category": "dating, hook-up, and social"
         },
-	"AskFm": {
+	"AskFm (social)": {
             "url": "https://ask.fm/{username}",
             "check_text": [
                 "Get in touch with"
@@ -132,7 +209,7 @@
             ],
             "category": "dating, hook-up, and social"
         },
-	"Deviantart": {
+	"Deviantart (social)": {
             "url": "https://www.deviantart.com/{username}",
             "check_text": [
                 "favourites",
@@ -143,7 +220,7 @@
             ],
             "category": "dating, hook-up, and social"
         },
-	"Wattpad": {
+	"Wattpad (social)": {
             "url": "https://www.wattpad.com/user/{username}",
             "check_text": [
                 "rss -"
@@ -153,7 +230,7 @@
             ],
             "category": "dating, hook-up, and social"
         },
-	"FurAffinity": {
+	"FurAffinity (social)": {
             "url": "https://www.furaffinity.net/user/{username}",
             "check_text": [
                 "<title>Userpage of"
@@ -163,7 +240,7 @@
             ],
             "category": "dating, hook-up, and social"   
         },
-	"Alua": {
+	"Alua (social)": {
             "url": "https://alua.com/{username}",
             "check_text": [
                 "free follow",
@@ -175,62 +252,15 @@
             ],
             "category": "dating, hook-up, and social"
         },
-	"Tagged": {
-            "url": "https://www.tagged.com/{username}",
+	"Playboy app": {
+            "url": "https://www.playboy.com/app/{username}",
             "check_text": [
-                "https://tagged.com/{username}",
-                "robots"
+                "exclusive content on Playboy | The Playboy Club<title>"
             ],
               "not_found_text": [
-                "Tagged makes it easy",
-                "meet New People",
-                "verify-v1"
+                "<title>Not Found"
             ],
-            "category": "dating, hook-up, and social"
-        },
-	"MenNation": {
-            "url": "https://www.mennation.com/profile/{username}",
-            "check_text": [
-                "/profile/"
-            ],
-              "not_found_text": [
-                "sign up for free",
-		"Find Intimate Encounters"
-            ],
-            "category": "dating, hook-up, and social"
-        },
-	"FriendFinder-X": {
-            "url": "https://www.friendfinder-x.com/profile/{username}",
-            "check_text": [
-                ">Profile</a>"
-            ],
-              "not_found_text": [
-                "https://adultfriendfinder.com/p/register.cgi",
-                "Sign up for free at AdultFriendFinder",
-                "register, sign up, join, AdultFriendFinder",
-		"The World's Largest Casual Personals Site."
-            ],
-            "category": "dating, hook-up, and social"
-        },
-	"BDSMSINGLES": {
-            "url": "https://www.bdsmsingles.com/members/{username}",
-            "check_text": [
-                "<title>Profile"
-            ],
-              "not_found_text": [
-                "bdsmsingles.com/?language"
-            ],
-            "category": "dating, hook-up, and social"
-        },
-	"FindAFemDom": {
-            "url": "https://app.findafemdom.com/members/{username}",
-            "check_text": [
-                "<title>Profile"
-            ],
-              "not_found_text": [
-                "findafemdom.com/?language"
-            ],
-            "category": "dating, hook-up, and social"
+            "category": "adult video, photo, and camming"
         },
 	"BabesDirectory": {
             "url": "https://babesdirectory.online/profile/{username}",
