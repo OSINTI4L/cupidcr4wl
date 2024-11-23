@@ -80,6 +80,16 @@
                 "Page Not Found</title>"
             ],
             "category": "link directory, gifting, and payment"
+        },
+	"Venmo (payment)": {
+            "url": "https://account.venmo.com/u/{username}",
+            "check_text": [
+                "robots"
+            ],
+              "not_found_text": [
+                "<title>Venmo | Page Not Found</title>
+            ],
+            "category": "link directory, gifting, and payment"
          },
 		"Tinder (dating)": {
             "url": "https://www.tinder.com/@{username}",
@@ -249,6 +259,19 @@
             ],
               "not_found_text": [
                 "Alua connects creators and fans through our unique social platform"
+            ],
+            "category": "dating, hook-up, and social"
+        },
+	"MymFans (social)": {
+            "url": "https://mym.fans/{username}",
+            "check_text": [
+                "MYM</title>"
+            ],
+              "not_found_text": [
+                "<title>There's nothing here",
+                "fans</title>",
+                "follow your favourite",
+                "be more than just a fan"
             ],
             "category": "dating, hook-up, and social"
         },
