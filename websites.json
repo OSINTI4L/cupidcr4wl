@@ -47,7 +47,7 @@
                 "My Wishlist</title>"
             ],
               "not_found_text": [
-                "Throne Gifts</title>"
+                "Creator Not Found</title>"
             ],
             "category": "link directory, gifting, and payment"
         },
@@ -474,7 +474,8 @@
                 "media.sextpanther.com/v2"
             ],
               "not_found_text": [
-                "localhost"
+                "localhost",
+		"<p>We can't seem to find that page</p>"
             ],
             "category": "adult video, photo, and camming"
          },
