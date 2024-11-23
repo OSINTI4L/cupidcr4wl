@@ -8,7 +8,7 @@
               "not_found_text": [
                 "404"
             ],
-            "category": "link directories, gifting, and payment"
+            "category": "link directory, gifting, and payment"
         },
 	"Milkshake (link directory)": {
             "url": "https://msha.ke/{username}/",
@@ -18,7 +18,7 @@
               "not_found_text": [
                 "<title>Well, this is awkward...</title>"
             ],
-            "category": "link directories, gifting, and payment"
+            "category": "link directory, gifting, and payment"
         },
 	"GetAllMyLinks (link directory)": {
             "url": "https://getallmylinks.com/{username}",
@@ -28,7 +28,7 @@
               "not_found_text": [
                 "<title>GetAllMyLinks - 404</title>"
             ],
-            "category": "link directories, gifting, and payment"
+            "category": "link directory, gifting, and payment"
         },
 	"ByBio (link directory)": {
             "url": "https://bybio.co/{username}",
@@ -38,7 +38,7 @@
               "not_found_text": [
                 "404 not found"
             ],
-            "category": "link directories, gifting, and payment"
+            "category": "link directory, gifting, and payment"
         },
 	"Throne (gifting)": {
             "url": "https://throne.com/{username}",
