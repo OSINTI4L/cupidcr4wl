@@ -8,7 +8,7 @@
               "not_found_text": [
                 "404"
             ],
-            "category": "dating, hook-up, and social"
+            "category": "link directories, gifting, and payment"
         },
 	"Milkshake (link directory)": {
             "url": "https://msha.ke/{username}/",
@@ -18,7 +18,7 @@
               "not_found_text": [
                 "<title>Well, this is awkward...</title>"
             ],
-            "category": "dating, hook-up, and social"
+            "category": "link directories, gifting, and payment"
         },
 	"GetAllMyLinks (link directory)": {
             "url": "https://getallmylinks.com/{username}",
@@ -28,7 +28,38 @@
               "not_found_text": [
                 "<title>GetAllMyLinks - 404</title>"
             ],
-            "category": "dating, hook-up, and social"
+            "category": "link directories, gifting, and payment"
+        },
+	"ByBio (link directory)": {
+            "url": "https://bybio.co/{username}",
+            "check_text": [
+                "BYBIO</title>"
+            ],
+              "not_found_text": [
+                "404 not found"
+            ],
+            "category": "link directories, gifting, and payment"
+        },
+	"Throne (gifting)": {
+            "url": "https://throne.com/{username}",
+            "check_text": [
+                "Fan Account",
+                "My Wishlist</title>"
+            ],
+              "not_found_text": [
+                "Throne Gifts</title>"
+            ],
+            "category": "link directory, gifting, and payment"
+        },
+	"AllThingsWorn (underwear sales)": {
+            "url": "https://www.allthingsworn.com/profile/{username}",
+            "check_text": [
+                "check out"
+            ],
+              "not_found_text": [
+                "Sell Used Panties, Underwear and"
+            ],
+            "category": "link directory, gifting, and payment"
          },
 		"Tinder": {
             "url": "https://www.tinder.com/@{username}",
@@ -130,17 +161,7 @@
               "not_found_text": [
                 "<title>System Error</title>"
             ],
-            "category": "dating, hook-up, and social"
-        },
-	"AllThingsWorn (underwear sales)": {
-            "url": "https://www.allthingsworn.com/profile/{username}",
-            "check_text": [
-                "check out"
-            ],
-              "not_found_text": [
-                "Sell Used Panties, Underwear and"
-            ],
-            "category": "dating, hook-up, and social"    
+            "category": "dating, hook-up, and social"   
         },
 	"Alua": {
             "url": "https://alua.com/{username}",
@@ -210,6 +231,26 @@
                 "findafemdom.com/?language"
             ],
             "category": "dating, hook-up, and social"
+        },
+	"BabesDirectory": {
+            "url": "https://babesdirectory.online/profile/{username}",
+            "check_text": [
+                "BIO, Wiki, News"
+            ],
+              "not_found_text": [
+                "<title>Babe not found 404"
+            ],
+            "category": "adult video, photo, and camming"
+        },
+	"Boobpedia": {
+            "url": "https://www.boobpedia.com/wiki/index.php?title=Special:Search&profile=all&search={username}&fulltext=1",
+            "check_text": [
+                "Page title matches"
+            ],
+              "not_found_text": [
+                "There were no results matching the query."
+            ],
+            "category": "adult video, photo, and camming"
         },
 	"Fansify": {
             "url": "https://fansify.co.uk/{username}",
