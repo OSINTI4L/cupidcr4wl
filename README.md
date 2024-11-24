@@ -1,7 +1,7 @@
 <div align="center">
 
 # 💘 cupidcr4wl 💘
-[Version 1.3](https://github.com/OSINTI4L/cupidcr4wl/commit/dce5c5d166cc7406c7b90b322b3c457ed8e86785)
+[Version 1.3](https://github.com/OSINTI4L/cupidcr4wl/releases/tag/cupidcr4wl-v1.3)
 
 cupidcr4wl is an Open-Source Intelligence username search tool that crawls adult content platforms to see if a targeted account or person is present. The need for a tool of this manner derived from missing persons investigations where dating, adult video/photo platforms, and concerns of human trafficking were found relevant.
 
