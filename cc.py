@@ -276,7 +276,7 @@ def main():
         check_usernames(usernames, user_agents, write_to_file, args.debug)  # Check usernames
         # Print a message indicating results have been saved if exporting is enabled
         if args.export_results and usernames:
-            console.print(f"[bold cyan]✓ Results have been saved to '{result_file_name}' ✓[/bold cyan]")
+            console.print(f"[bold cyan]✓ Results have been saved to '{result_file_name}'[/bold cyan]")
     finally:
         if write_to_file:
             write_to_file.close()  # Close the file if it was opened
