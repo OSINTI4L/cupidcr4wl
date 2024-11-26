@@ -123,7 +123,7 @@ def check_usernames(usernames, user_agents, write_to_file=None, debug=False):
         if write_to_file:
             write_to_file.write(f"\nResults for {username}:\n")  # Add a header for the username in the file
 
-        console.print(f"\n[bold cyan]Checking username: {username}[/bold cyan]")  # Print username being checked
+        console.print(f"[bold cyan]Checking username: {username}[/bold cyan]")  # Print username being checked
         
         with Progress(
             SpinnerColumn(style="bold cyan"),
