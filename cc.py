@@ -82,27 +82,27 @@ def check_single_site(username, site, info, user_agents, write_to_file=None, deb
         # Determine the status and construct the appropriate message
         if response.status_code == 200:
             if matching_check_texts:
-                message = f"[green]Account found on {site}: {url}{response_code}[/green]"
+                message = f"[green]↳ Account found on {site}: {url}{response_code}[/green]"
                 if debug:
                     matched_items = ", ".join(matching_check_texts)
                     message += f" [cyan](Matched check_text items: {matched_items})[/cyan]"
             elif matching_not_found_texts:
-                message = f"[red]No account found on {site}.{response_code}[/red]"
+                message = f"[red]✗ No account found on {site}.{response_code}[/red]"
                 if debug:
                     matched_items = ", ".join(matching_not_found_texts)
                     message += f" [cyan](Matched not_found_text items: {matched_items})[/cyan]"
             else:
-                message = f"[yellow]Possible account found on {site}: {url}{response_code}[/yellow]"
+                message = f"[yellow]↳ Possible account found on {site}: {url}{response_code}[/yellow]"
         else:
-            message = f"[red]No account found on {site}.{response_code}[/red]"
+            message = f"[red]✗ No account found on {site}.{response_code}[/red]"
             if debug and matching_not_found_texts:
                 matched_items = ", ".join(matching_not_found_texts)
                 message += f" [cyan](Matched not_found_text items: {matched_items})[/cyan]"
 
     except requests.Timeout:
-        message = f"[bold red]Timeout while checking {site}.[/bold red]"
+        message = f"[bold red]✗ Timeout while checking {site}.[/bold red]"
     except requests.RequestException as e:
-        message = f"[bold red]Network error checking {site}: {str(e)}.[/bold red]"
+        message = f"[bold red]✗ Network error checking {site}: {str(e)}.[/bold red]"
 
     # Simplified message writing logic
     write_message(message, write_to_file) if debug or "[green]" in message or "[yellow]" in message else None
@@ -110,7 +110,7 @@ def check_single_site(username, site, info, user_agents, write_to_file=None, deb
 
 def print_category_header(category, write_to_file=None):
     """Print and optionally write category header."""
-    message = f"\n[bold blue]Checking {category} platforms:[/bold blue]"
+    message = f"\n[bold blue]💘 Checking {category} platforms 💘[/bold blue]"
     write_message(message, write_to_file)
 
 def check_usernames(usernames, user_agents, write_to_file=None, debug=False):
@@ -276,11 +276,12 @@ def main():
         check_usernames(usernames, user_agents, write_to_file, args.debug)  # Check usernames
         # Print a message indicating results have been saved if exporting is enabled
         if args.export_results and usernames:
-            console.print(f"[bold cyan]Results have been saved to '{result_file_name}'[/bold cyan]")
+            console.print(f"[bold cyan]✓ Results have been saved to '{result_file_name}' ✓[/bold cyan]")
     finally:
         if write_to_file:
             write_to_file.close()  # Close the file if it was opened
 
+    console.print("\n[bold cyan]💰 Search complete, enjoy your[/bold cyan] [bold green]loot.. 💰[/bold green]")
 
 if __name__ == "__main__":
     main()  # Call the main function to run the script
