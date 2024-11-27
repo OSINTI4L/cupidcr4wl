@@ -55,13 +55,16 @@ options:
                     
   -u USERNAME       Enter a username or multiple usernames (separated by commas) to search.
                     
-  --export-results  Search results will be exported to a text file named 'cc_results.txt' in the current working directory.
+  --export-results  Search results will be exported to a text file named 'cc_results.txt' in
+                    the current working directory.
                     
-  --debug           Debug mode shows all results, HTTP response codes, check_text/not_found_text matches, timeouts, and errors for each site checked.
+  --debug           Debug mode shows all results, HTTP response codes, check_text/not_found_text
+                    matches, timeouts, and errors for each site checked.
                     
   --sites           Prints all sites that cupidcr4wl will search.
                     
-  --export-sites    Exports the list of sites that cupidcr4wl will search to a text file named 'cc_sitelist.txt' in the current working directory.
+  --export-sites    Exports the list of sites that cupidcr4wl will search to a text file
+                    named 'cc_sitelist.txt' in the current working directory.
 ```
 2) To perform a search of a username:
 
