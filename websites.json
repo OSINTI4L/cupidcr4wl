@@ -47,7 +47,8 @@
                 "My Wishlist</title>"
             ],
               "not_found_text": [
-                "Creator Not Found</title>"
+                "<title>Throne | Creator Not Found</title>",
+                "Oops! This creator does not exist."
             ],
             "category": "link directory, gifting, and payment"
         },
