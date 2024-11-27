@@ -203,7 +203,7 @@ def export_sites(file_path='websites.json'):
 def parse_arguments():
     """Parse command-line arguments for the script."""
     parser = argparse.ArgumentParser(
-        description="A tool for checking if an account exists across various websites.",
+        description="A tool for checking if a username exists across various platforms.",
         formatter_class=SpacingHelpFormatter
     )
 
@@ -224,19 +224,19 @@ def parse_arguments():
     parser.add_argument(
         "--debug",
         action="store_true",
-        help="Debug mode, shows HTTP response codes and check_text/not_found_text matches for each site checked."
+        help="Debug mode shows all results, HTTP response codes, check_text/not_found_text matches, timeouts, and errors for each site checked."
     )
 
     parser.add_argument(
         "--sites",
         action="store_true",
-        help="Print all sites that cupidcr4wl will search."
+        help="Prints all sites that cupidcr4wl will search."
     )
 
     parser.add_argument(
         "--export-sites",
         action="store_true",
-        help="Export the list of sites that cupidcr4wl will search to a text file named 'cc_sitelist.txt' in the current working directory."
+        help="Exports the list of sites that cupidcr4wl will search to a text file named 'cc_sitelist.txt' in the current working directory."
     )
     
     return parser.parse_args()
