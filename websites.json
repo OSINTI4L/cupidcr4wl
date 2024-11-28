@@ -20,18 +20,6 @@
             ],
             "category": "payment"
         },
-	"Throne": {
-            "url": "https://throne.com/{username}",
-            "check_text": [
-                "Fan Account",
-                "My Wishlist</title>"
-            ],
-              "not_found_text": [
-                "<title>Throne | Creator Not Found</title>",
-                "Oops! This creator does not exist."
-            ],
-            "category": "gifting"
-        },
 	"BuyMeACoffee": {
             "url": "https://buymeacoffee.com/{username}",
             "check_text": [
@@ -201,19 +189,6 @@
             ],
               "not_found_text": [
                 "Porn Videos"
-            ],
-            "category": "social"
-        },
-	"MymFans": {
-            "url": "https://mym.fans/{username}",
-            "check_text": [
-                "MYM</title>"
-            ],
-              "not_found_text": [
-                "<title>There's nothing here",
-                "fans</title>",
-                "follow your favourite",
-                "be more than just a fan"
             ],
             "category": "social"
          },
@@ -927,17 +902,6 @@
             ],
               "not_found_text": [
                 "escorts found (0)"
-            ],
-            "category": "escort"
-         },
-                "Slixa": {
-            "url": "https://www.slixa.com/{username}",
-            "check_text": [
-                "<title>{username}",
-                "robots"
-            ],
-              "not_found_text": [
-                "<title>404 Slixa</title>"
             ],
             "category": "escort"
          },
