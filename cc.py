@@ -110,7 +110,7 @@ def check_single_site(username, site, info, user_agents, write_to_file=None, deb
 
 def print_category_header(category, write_to_file=None):
     """Print and optionally write category header."""
-    message = f"\n[bold blue]💘 Checking {category} platforms 💘[/bold blue]"
+    message = f"\n[bold blue]💘Checking {category} platforms💘[/bold blue]"
     write_message(message, write_to_file)
 
 def check_usernames(usernames, user_agents, write_to_file=None, debug=False):
@@ -281,7 +281,7 @@ def main():
         if write_to_file:
             write_to_file.close()  # Close the file if it was opened
 
-    console.print("\n[bold cyan]💰 Search complete, enjoy your[/bold cyan] [bold green]loot.. 💰[/bold green]")
+    console.print("\n[bold cyan]💰Search complete, enjoy your[/bold cyan] [bold green]loot..💰[/bold green]")
 
 if __name__ == "__main__":
     main()  # Call the main function to run the script
