@@ -1105,6 +1105,96 @@
                 "P404 page for London Stars"
             ],
             "category": "escort"
+        },
+	"Exotic Nigeria (Nigeria, Africa)": {
+            "url": "https://www.exoticnigeria.com/escort/{username}/",
+            "check_text": [
+                "call girl in Nigeria on Exoctic Nigeria.</title>"
+            ],
+              "not_found_text": [
+                "Premium Nigerian Escorts</title>"
+            ],
+            "category": "escort"
+        },
+	"Exotic RW (Rwanda, Africa)": {
+            "url": "https://www.exoticrw.com/escort/{username}/",
+            "check_text": [
+                " | Best Rwanda Escorts"
+            ],
+              "not_found_text": [
+                "<title>Best Rwanda Escorts"
+            ],
+            "category": "escort"
+        },
+	"Exotic Namibia (Namibia, Africa)": {
+            "url": "https://www.exoticnamibia.com/escort/{username}/",
+            "check_text": [
+                "Hookups with Nambian Escort for Massage, Sex</title>"
+            ],
+              "not_found_text": [
+                "<title>Exotic Escorts Namibia"
+            ],
+            "category": "escort"
+        },
+	"Exotic Benin (Benin, Africa)": {
+            "url": "https://www.exoticbenin.com/escort/{username}/",
+            "check_text": [
+                " - Meilleures escortes"
+            ],
+              "not_found_text": [
+                "<title>Meilleures escortes"
+            ],
+            "category": "escort"
+        },
+	"Exotic Mozambique (Mozambique, Africa)": {
+            "url": "https://www.exoticmozambique.com/escort/{username}/",
+            "check_text": [
+                " - Acompanhantes Maputo"
+            ],
+              "not_found_text": [
+                "<title>Acompanhantes Maputo"
+            ],
+            "category": "escort"
+        },
+	"Exotic Mali (Mali, Africa)": {
+            "url": "https://www.exoticmali.com/escort/{username}/",
+            "check_text": [
+                " - Escorte Mali"
+            ],
+              "not_found_text": [
+                "<title>Escorte Mali"
+            ],
+            "category": "escort"
+        },
+	"Exotic Malawi (Malawi, Africa)": {
+            "url": "https://www.exoticmalawi.com/escort/{username}/",
+            "check_text": [
+                " - Escorts in Malawi"
+            ],
+              "not_found_text": [
+                "<title>Escorts  in Malawi"
+            ],
+            "category": "escort"
+        },
+	"Exotic Ethiopia (Ethiopia, Africa)": {
+            "url": "https://www.exoticmalawi.com/escort/{username}/",
+            "check_text": [
+                ", Ethiopian Escort for Massage"
+            ],
+              "not_found_text": [
+                "<title>Ethiopian Escorts"
+            ],
+            "category": "escort"
+        },
+	"Exotic Botswana (Botswana, Africa)": {
+            "url": "https://www.exoticbotswana.com/escort/{username}/",
+            "check_text": [
+                ", Botswana Escort for Massage"
+            ],
+              "not_found_text": [
+                "<title>Botswana Escorts"
+            ],
+            "category": "escort"
          },
                 "Blue Label Escort (Frankfurt, Germany)": {
             "url": "https://bluelabel-escort.com/en/models/{username}/",
@@ -1267,6 +1357,16 @@
             ],
               "not_found_text": [
                 "Nothing Found</h1>"
+            ],
+            "category": "escort"
+        },
+	"Vegas Girls Gone Wild (Las Vegas, NV)": {
+            "url": "https://vegasgirlsgonewild.com/escort/{username}/",
+            "check_text": [
+                "Vegas Girls Gone Wild</title>"
+            ],
+              "not_found_text": [
+                "Page not found"
             ],
             "category": "escort"
         },
