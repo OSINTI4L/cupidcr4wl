@@ -713,18 +713,6 @@
             ],
             "category": "camming"
         },
-	"SlutRoulette": {
-            "url": "https://slutroulette.com/cams/{username}",
-            "check_text": [
-                "in Free Chat Roulette",
-                "slutroulette.com/cams/"
-            ],
-              "not_found_text": [
-                "noindex,nofollow",
-		"the page you"
-            ],
-            "category": "camming"
-        },
 	"Camlust": {
             "url": "https://camlust.com/en/models/{username}",
             "check_text": [
@@ -1172,12 +1160,12 @@
                 " - Escorts in Malawi"
             ],
               "not_found_text": [
-                "<title>Escorts  in Malawi"
+                "<title>Escorts in Malawi"
             ],
             "category": "escort"
         },
 	"Exotic Ethiopia (Ethiopia, Africa)": {
-            "url": "https://www.exoticmalawi.com/escort/{username}/",
+            "url": "https://www.exoticethiopia.com/escort/{username}/",
             "check_text": [
                 ", Ethiopian Escort for Massage"
             ],
