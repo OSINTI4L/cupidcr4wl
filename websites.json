@@ -897,6 +897,38 @@
                 "error 404"
             ],
             "category": "camming"
+        },
+	"Grazia (International)": {
+            "url": "https://grazia-escort.com/en/models/{username}/",
+            "check_text": [
+                "book now"
+            ],
+              "not_found_text": [
+                "<title>Grazia"
+            ],
+            "category": "escort"
+        },
+	"Perla Di Mare (International)": {
+            "url": "https://www.perla-di-mare.eu/escort/{username}/",
+            "check_text": [
+                "located in"
+            ],
+              "not_found_text": [
+                "nothing found"
+            ],
+            "category": "escort"
+        },
+	"Ava Escorts (International)": {
+            "url": "https://avaescorts.com/search-results?escort_name={username}&agency_id=&escort_type=&root_category=&city_county=Enter+City&age=&hair_color=&languages=&price=&type=&x=0&y=0",
+            "check_text": [
+                "/>Outcall Only<br",
+                "/>Incall/Outcall<br",
+                "/>Incall Only<br"
+            ],
+              "not_found_text": [
+                "escorts found (0)"
+            ],
+            "category": "escort"
          },
                 "Slixa": {
             "url": "https://www.slixa.com/{username}",
@@ -1156,26 +1188,6 @@
             ],
             "category": "escort"
         },
-	"Grazia (International)": {
-            "url": "https://grazia-escort.com/en/models/{username}/",
-            "check_text": [
-                "book now"
-            ],
-              "not_found_text": [
-                "<title>Grazia"
-            ],
-            "category": "escort"
-        },
-	"Perla Di Mare (International)": {
-            "url": "https://www.perla-di-mare.eu/escort/{username}/",
-            "check_text": [
-                "located in"
-            ],
-              "not_found_text": [
-                "nothing found"
-            ],
-            "category": "escort"
-        },
 	"Society Service Escorts (Holland & Belgium)": {
             "url": "https://www.societyservice.com/escort/{username}",
             "check_text": [
@@ -1205,6 +1217,104 @@
             ],
               "not_found_text": [
                 "Your search does not return any result."
+            ],
+            "category": "escort"
+        },
+	"1Baiser": {
+            "url": "https://en.1baiser.com/search?q={username}",
+            "check_text": [
+                "Model </span></h2>"
+            ],
+              "not_found_text": [
+                "No results were found"
+            ],
+            "category": "escort"
+        },
+	"Escort Amsterdam1 (Amsterdam)": {
+            "url": "https://en.escortamsterdam1.com/escort-{username}",
+            "check_text": [
+                "<title>Escort Amsterdam 1 - Escort girl"
+            ],
+              "not_found_text": [
+                "We couldn't find this page"
+            ],
+            "category": "escort"
+        },
+	"Figgmi (Switzerland)": {
+            "url": "https://figgmi.ch/de/escorts/{username}/",
+            "check_text": [
+                "| escort in"
+            ],
+              "not_found_text": [
+                "error 404"
+            ],
+            "category": "escort"
+        },
+	"Telaviv-Escort (Telaviv)": {
+            "url": "https://telaviv-escort.com/model/{username}",
+            "check_text": [
+                "<td>Ethnicity:</td>",
+                "<td>Age:</td>",
+                "<td>Availability:</td>"
+            ],
+              "not_found_text": [
+                "404 not found"
+            ],
+            "category": "escort"
+        },
+	"Austin Escort Models (Austin, TX)": {
+            "url": "https://austinescortmodels.com/model/{username}",
+            "check_text": [
+                "<td>Ethnicity:</td>",
+                "<td>Age:</td>",
+                "<td>Availability:</td>"
+            ],
+              "not_found_text": [
+                "404 not found"
+            ],
+            "category": "escort"
+        },
+	"Dallas Escort State (Dallas, TX)": {
+            "url": "https://dallasescortstate.com/model/{username}",
+            "check_text": [
+                "<td>Ethnicity:</td>",
+                "<td>Age:</td>",
+                "<td>Availability:</td>"
+            ],
+              "not_found_text": [
+                "404 not found"
+            ],
+            "category": "escort"
+        },
+	"What Happens In Vegas Stays (Las Vegas, NV)": {
+            "url": "https://www.whathappensinvegasstays.com/?s={username}",
+            "check_text": [
+                "search-results"
+            ],
+              "not_found_text": [
+                "Nothing Found</h1>"
+            ],
+            "category": "escort"
+        },
+	"Party Girls LV (Las Vegas, NV)": {
+            "url": "https://partygirlslv.com/?s={username}&post_type=model",
+            "check_text": [
+                ">Search Results for:"
+            ],
+              "not_found_text": [
+                "Nothing Found</h1>"
+            ],
+            "category": "escort"
+        },
+	"Florida Escort Models (Florida, US)": {
+            "url": "https://floridaescortmodels.com/model/{username}",
+            "check_text": [
+                "<td>Ethnicity:</td>",
+                "<td>Age:</td>",
+                "<td>Availability:</td>"
+            ],
+              "not_found_text": [
+                "404 not found"
             ],
             "category": "escort"
         }
