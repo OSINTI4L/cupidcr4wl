@@ -87,9 +87,13 @@ It is important that the ```check_text``` and ```not_found_text``` are accurate 
 Add the category type so that cupidcr4wl will display results to their respective categories.
 The current categories are:
 ```
-"link directory, gifting, and payment"
-"dating, hook-up, and social"
-"adult video, photo, and camming"
+"payment"
+"gifting"
+"link directory"
+"social"
+"dating and hook-up"
+"adult video and photo"
+"camming"
 "escort"
 ```
 ### Test for accuracy
