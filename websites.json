@@ -649,16 +649,6 @@
                 "page not found"
             ],
             "category": "adult video and photo"
-        },
-	"PinkLabel": {
-            "url": "https://www.pinklabel.tv/on-demand/search/{username}",
-            "check_text": [
-                "show me"
-            ],
-              "not_found_text": [
-                "If you can't find what you're"
-            ],
-            "category": "adult video and photo"
          },
                 "Uviu": {
             "url": "https://uviu.com/model/{username}",
@@ -753,16 +743,6 @@
             ],
               "not_found_text": [
                 "<title>Not Found</title>"
-            ],
-            "category": "camming"
-        },
-	"Babestation Cams (search)": {
-            "url": "https://babestationcams.com/search/{username}",
-            "check_text": [
-                "showing"
-            ],
-              "not_found_text": [
-                "no performers"
             ],
             "category": "camming"
         },
@@ -910,50 +890,6 @@
             ],
               "not_found_text": [
                 "No records were found."
-            ],
-            "category": "escort"
-         },
-                "OneBackPage (female escorts)": {
-            "url": "https://onebackpage.com/search/pattern,{username}/category,98",
-            "check_text": [
-                "search results"
-            ],
-              "not_found_text": [
-                "Not found",
-                "error"
-            ],
-            "category": "escort"
-         },
-                "OneBackPage (trans escorts)": {
-            "url": "https://onebackpage.com/search/pattern,{username}/category,1o2",
-            "check_text": [
-                "search results"
-            ],
-              "not_found_text": [
-                "Not found",
-                "error"
-            ],
-            "category": "escort"
-         },
-                "OneBackPage (body rubs)": {
-            "url": "https://onebackpage.com/search/pattern,{username}/category,99",
-            "check_text": [
-                "search results"
-            ],
-              "not_found_text": [
-                "Not found",
-                "error"
-            ],
-            "category": "escort"
-         },
-                "OneBackPage (dom and fetishes)": {
-            "url": "https://onebackpage.com/search/pattern,{username}/category,1o1",
-            "check_text": [
-                "search results"
-            ],
-              "not_found_text": [
-                "Not found",
-                "error"
             ],
             "category": "escort"
          },
