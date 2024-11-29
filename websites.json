@@ -33,10 +33,13 @@
 	"AllThingsWorn (underwear sales)": {
             "url": "https://www.allthingsworn.com/profile/{username}",
             "check_text": [
-                "check out"
+                "tab=followers",
+		"tab=following",
+		">Gender:"
             ],
               "not_found_text": [
-                "Sell Used Panties, Underwear and"
+                "Sell Used Panties, Underwear and",
+		"<li>This member has either changed"
             ],
             "category": "gifting"
         },
@@ -1255,16 +1258,6 @@
             ],
               "not_found_text": [
                 "No results were found"
-            ],
-            "category": "escort"
-        },
-	"Escort Amsterdam1 (Amsterdam)": {
-            "url": "https://en.escortamsterdam1.com/escort-{username}",
-            "check_text": [
-                "<title>Escort Amsterdam 1 - Escort girl"
-            ],
-              "not_found_text": [
-                "We couldn't find this page"
             ],
             "category": "escort"
         },
