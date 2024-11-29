@@ -204,6 +204,36 @@
             ],
             "category": "dating and hook-up"
         },
+	"Fuckbook": {
+            "url": "https://www.fuckbook.com/p/{username}",
+            "check_text": [
+                "Profile - Fuckbook</title>"
+            ],
+              "not_found_text": [
+                "Page Not Found"
+            ],
+            "category": "dating and hook-up"
+        },
+	"Swapfinder": {
+            "url": "https://swapfinder.com/profile/{username}",
+            "check_text": [
+                "Profile on Swapfinder.com</title>"
+            ],
+              "not_found_text": [
+                "Swapfinder.com</title>"
+            ],
+            "category": "dating and hook-up"
+        },
+	"Date-fans": {
+            "url": "https://date-fans.com/profile/{username}",
+            "check_text": [
+                "| Date-Fans</title>"
+            ],
+              "not_found_text": [
+                "<title>DateFans"
+            ],
+            "category": "dating and hook-up"
+        },
 	"Tagged": {
             "url": "https://www.tagged.com/{username}",
             "check_text": [
@@ -278,6 +308,26 @@
             ],
               "not_found_text": [
                 "<title>Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"RealGfPorn (user)": {
+            "url": "https://www.realgfporn.com/user/{username}",
+            "check_text": [
+                "Profile - Real Girlfriend Porn</title>"
+            ],
+              "not_found_text": [
+                "404 - page not found"
+            ],
+            "category": "adult video and photo"
+        },
+	"RealGfPorn (search)": {
+            "url": "https://www.realgfporn.com/search/{username}/page1.html",
+            "check_text": [
+                ">1</span>"
+            ],
+              "not_found_text": [
+                "Sorry, no results were found."
             ],
             "category": "adult video and photo"
         },
