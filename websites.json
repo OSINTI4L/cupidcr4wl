@@ -1176,7 +1176,9 @@
                 "Blue Label Escort (Frankfurt, Germany)": {
             "url": "https://bluelabel-escort.com/en/models/{username}/",
             "check_text": [
-                "os:image:height"
+                "Hair colour:</span>",
+		"Category:</span>",
+		"Height:</span>"
             ],
               "not_found_text": [
                 "faq"
