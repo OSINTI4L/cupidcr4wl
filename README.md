@@ -70,7 +70,7 @@ options:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username```
 
->Due to how different platforms structure their usernames it is recommended to run your target username in multiple different variations. E.g., janedoe,'jane doe',jane-doe,jdoe.
+>Due to how different platforms structure their usernames it is recommended to run your target username in multiple different variations. E.g., ```janedoe,jane_doe,jane-doe,jdoe```
 
 3) To perform a search of multiple usernames separate them by commas (with no spaces):
 
