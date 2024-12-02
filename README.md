@@ -9,7 +9,7 @@ cupidcr4wl is an Open-Source Intelligence username search tool that crawls adult
 
 cupidcr4wl searches the following platforms:
 
-Payment | Gifting | Link directory | Social | Dating and hook-up | Adult video and photo | Camming | Escort
+Payment and Gifting | Social | Dating and hook-up | Fetish | Adult video and photo | Camming | Escort
 
 Please see the [contributing](https://github.com/OSINTI4L/cupidcr4wl/blob/main/.github/CONTRIBUTING.md) section if you find cupidcr4wl is returning false positive/negative results so it can be fixed. You can also submit a site to add to the cupidcr4wl search list!
 
