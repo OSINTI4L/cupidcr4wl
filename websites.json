@@ -1,6 +1,6 @@
 {
     "websites": {
-	"CashApp": {
+	"Cash App": {
             "url": "https://cash.app/${username}",
             "check_text": [
                 "on Cash App</title>"
@@ -8,7 +8,7 @@
               "not_found_text": [
                 "Page Not Found</title>"
             ],
-            "category": "payment"
+            "category": "payment and gifting"
         },
 	"Venmo": {
             "url": "https://account.venmo.com/u/{username}",
@@ -18,9 +18,9 @@
               "not_found_text": [
                 "<title>Venmo | Page Not Found</title>"
             ],
-            "category": "payment"
+            "category": "payment and gifting"
         },
-	"BuyMeACoffee": {
+	"Buy Me A Coffee": {
             "url": "https://buymeacoffee.com/{username}",
             "check_text": [
                 "og:title"
@@ -28,9 +28,9 @@
               "not_found_text": [
                 "<title inertia>Not found"
             ],
-            "category": "gifting"
+            "category": "payment and gifting"
         },
-	"AllThingsWorn (underwear sales)": {
+	"All Things Worn (underwear sales)": {
             "url": "https://www.allthingsworn.com/profile/{username}",
             "check_text": [
                 "tab=followers",
@@ -41,7 +41,7 @@
                 "Sell Used Panties, Underwear and",
 		"<li>This member has either changed"
             ],
-            "category": "gifting"
+            "category": "payment and gifting"
         },
 	"Linktree": {
             "url": "https://linktr.ee/{username}",
@@ -51,7 +51,7 @@
               "not_found_text": [
                 "404"
             ],
-            "category": "link directory"
+            "category": "social"
         },
 	"Milkshake": {
             "url": "https://msha.ke/{username}/",
@@ -61,9 +61,9 @@
               "not_found_text": [
                 "<title>Well, this is awkward...</title>"
             ],
-            "category": "link directory"
+            "category": "social"
         },
-	"GetAllMyLinks": {
+	"Get All My Links": {
             "url": "https://getallmylinks.com/{username}",
             "check_text": [
                 "<title>GetAllMyLinks"
@@ -71,9 +71,19 @@
               "not_found_text": [
                 "<title>GetAllMyLinks - 404</title>"
             ],
-            "category": "link directory"
+            "category": "social"
         },
-	"ByBio": {
+	"All My Links": {
+            "url": "https://allmylinks.com/{username}",
+            "check_text": [
+                "| AllMyLinks</title>"
+            ],
+              "not_found_text": [
+                "<title>Not Found"
+            ],
+            "category": "social"
+        },
+	"Bybio": {
             "url": "https://bybio.co/{username}",
             "check_text": [
                 "BYBIO</title>"
@@ -81,7 +91,7 @@
               "not_found_text": [
                 "404 not found"
             ],
-            "category": "link directory"
+            "category": "social"
          },
                 "Reddit": {
             "url": "https://www.reddit.com/user/{username}/",
@@ -132,7 +142,7 @@
             ],
             "category": "social"
         },
-	"AskFm": {
+	"ASKfm": {
             "url": "https://ask.fm/{username}",
             "check_text": [
                 "Get in touch with"
@@ -163,7 +173,7 @@
             ],
             "category": "social"
         },
-	"FurAffinity": {
+	"Fur Affinity": {
             "url": "https://www.furaffinity.net/user/{username}",
             "check_text": [
                 "<title>Userpage of"
@@ -185,13 +195,25 @@
             ],
             "category": "social"
          },
-                "FanCentro": {
+                "Fancentro": {
             "url": "https://fancentro.com/{username}",
             "check_text": [
                 "Subscribe"
             ],
               "not_found_text": [
                 "Porn Videos"
+            ],
+            "category": "social"
+        },
+	"Clapper App": {
+            "url": "https://www.clapperapp.com/{username}",
+            "check_text": [
+                "following",
+                "followers",
+                "likes"
+            ],
+              "not_found_text": [
+                "couldn't find this account"
             ],
             "category": "social"
          },
@@ -228,7 +250,7 @@
             ],
             "category": "dating and hook-up"
         },
-	"Date-fans": {
+	"Date-Fans": {
             "url": "https://date-fans.com/profile/{username}",
             "check_text": [
                 "| Date-Fans</title>"
@@ -251,7 +273,7 @@
             ],
             "category": "dating and hook-up"
          },
-                "live.xdating": {
+                "live.Xdating": {
             "url": "https://live.xdating.com/{username}/bio",
             "check_text": [
                 "followers"
@@ -285,7 +307,7 @@
             ],
             "category": "dating and hook-up"
         },
-	"BDSMSINGLES": {
+	"BDSM Singles": {
             "url": "https://www.bdsmsingles.com/members/{username}",
             "check_text": [
                 "<title>Profile"
@@ -295,7 +317,7 @@
             ],
             "category": "dating and hook-up"
         },
-	"FindAFemDom": {
+	"Find A Femdom": {
             "url": "https://app.findafemdom.com/members/{username}",
             "check_text": [
                 "<title>Profile"
@@ -304,6 +326,97 @@
                 "findafemdom.com/?language"
             ],
             "category": "dating and hook-up"
+        },
+	"Love A Pirsoner": {
+            "url": "https://loveaprisoner.com/?s={username}",
+            "check_text": [
+                "search-results elementor",
+                "/member-profile/"
+            ],
+              "not_found_text": [
+                "<p>It seems we can"
+            ],
+            "category": "dating and hook-up"
+        },
+	"Inmate Classified (profile)": {
+            "url": "https://www.inmate.com/inmates/{username}/",
+            "check_text": [
+                "Inmate Classified Pen Pal Profile</title>"
+            ],
+              "not_found_text": [
+                "<title>Page not found"
+            ],
+            "category": "dating and hook-up"
+        },
+	"Inmate Classified (search)": {
+            "url": "https://www.inmate.com/?s={username}&post_type=inmate",
+            "check_text": [
+                "profile-block Male"
+            ],
+              "not_found_text": [
+                "search-no-results"
+            ],
+            "category": "dating and hook-up"
+        },
+	"Women Behind Bars (search)": {
+            "url": "https://womenbehindbars.com/?s={username}",
+            "check_text": [
+                "</span> Read More"
+            ],
+              "not_found_text": [
+                "<p>Sorry, but nothing"
+            ],
+            "category": "dating and hook-up"
+        },
+	"Inmate Passions": {
+            "url": "https://inmatepassions.com/dating/{username}/",
+            "check_text": [
+                "<title>Inmate Passions:"
+            ],
+              "not_found_text": [
+                "<strong>WHAT?"
+            ],
+            "category": "dating and hook-up"
+        },
+	"Love Her Feet": {
+            "url": "https://www.loveherfeet.com/tour/search.php?query={username}&f=all",
+            "check_text": [
+                "item-title"
+            ],
+              "not_found_text": [
+                "No videos or photos were found."
+            ],
+            "category": "fetish"
+        },
+	"Sinful Feet": {
+            "url": "https://sinfulfeet.com/models/{username}.html",
+            "check_text": [
+                "<TITLE>SinfulFeet | "
+            ],
+              "not_found_text": [
+                "Page not found"
+            ],
+            "category": "fetish"
+        },
+	"Foot Fetish Beauties": {
+            "url": "https://footfetishbeauties.com/tour/models/{username}.html",
+            "check_text": [
+                "<TITLE>FootFetishBeauties"
+            ],
+              "not_found_text": [
+                "Page not found"
+            ],
+            "category": "fetish"
+        },
+	"Domme Addiction": {
+            "url": "https://dommeaddiction.com/?s={username}",
+            "check_text": [
+                ">by <a"
+            ],
+              "not_found_text": [
+                "Sorry, but nothing matched"
+            ],
+            "category": "fetish"
         },
 	"Playboy App": {
             "url": "https://www.playboy.com/app/{username}",
@@ -585,7 +698,7 @@
             ],
             "category": "adult video and photo"
          },
-                "RedGifs": {
+                "RedGIFs": {
             "url": "https://www.redgifs.com/users/{username}",
             "check_text": [
                 "about"
@@ -617,7 +730,7 @@
             ],
             "category": "adult video and photo"
          },
-                "JustForFans": {
+                "JustFor.Fans": {
             "url": "https://justforfans.com/{username}",
             "check_text": [
                 "Member since"
@@ -714,7 +827,7 @@
             ],
             "category": "adult video and photo"
         },
-	"FanVue": {
+	"Fanvue": {
             "url": "https://www.fanvue.com/{username}",
             "check_text": [
                 "posts",
@@ -725,7 +838,7 @@
             ],
             "category": "adult video and photo"
         },
-	"Admireme.vip": {
+	"AdmireMe.VIP": {
             "url": "https://admireme.vip/{username}/",
             "check_text": [
                 "subscribe for",
@@ -735,6 +848,165 @@
                 "page not found"
             ],
             "category": "adult video and photo"
+        },
+	"Tube8 (pornstars)": {
+            "url": "https://www.tube8.com/pornstar/{username}/",
+            "check_text": [
+                "Porn Videos and XXX Movies | Tube8.com</title>"
+            ],
+              "not_found_text": [
+                "404 Page Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"Tube8 (channels)": {
+            "url": "https://www.tube8.com/channel/{username}/",
+            "check_text": [
+                "Channel for Free Porn | Tube8.com</title>"
+            ],
+              "not_found_text": [
+                "<title>Porn Channels"
+            ],
+            "category": "adult video and photo"
+        },
+	"Thumbzilla": {
+            "url": "https://www.thumbzilla.com/pornstars/{username}",
+            "check_text": [
+                "Porn Videos from Thumbzilla</title>"
+            ],
+              "not_found_text": [
+                "Page not Found</span>"
+            ],
+            "category": "adult video and photo"
+        },
+	"Sexy Modern Bull": {
+            "url": "https://www.sexymodernbull.com/models/{username}",
+            "check_text": [
+                "</span>Add to Favorites"
+            ],
+              "not_found_text": [
+                "Page Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"Yes Girlz": {
+            "url": "https://www.yesgirlz.com/models/{username}",
+            "check_text": [
+                "Videos</span>",
+                "Photos</span>"
+            ],
+              "not_found_text": [
+                "Page Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"Raw White Meat": {
+            "url": "https://rawwhitemeat.com/video_tag/{username}/",
+            "check_text": [
+                "post-title"
+            ],
+              "not_found_text": [
+                "Page Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"My POV Fam": {
+            "url": "https://mypovfam.com/video_tag/{username}/",
+            "check_text": [
+                "post-title"
+            ],
+              "not_found_text": [
+                "Page Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"Pevert POV": {
+            "url": "https://pervertpov.com/video_tag/{username}/",
+            "check_text": [
+                "post-title"
+            ],
+              "not_found_text": [
+                "Page Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"Sluts Around Town": {
+            "url": "https://slutsaroundtown.com/video_tag/{username}/",
+            "check_text": [
+                "post-title"
+            ],
+              "not_found_text": [
+                "Page Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"Passions Only": {
+            "url": "https://passionsonly.com/video_tag/{username}/",
+            "check_text": [
+                "post-title"
+            ],
+              "not_found_text": [
+                "Page Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"MiLFUCKD": {
+            "url": "https://milfuckd.com/performers/{username}/",
+            "check_text": [
+                "JOIN NOW TO SEE MORE</span>",
+                ">Videos Featuring"
+            ],
+              "not_found_text": [
+                "Page Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"VRSpy": {
+            "url": "https://vrspy.com/star/{username}",
+            "check_text": [
+                "- VR Pornstar | VRSpy</title>"
+            ],
+              "not_found_text": [
+                "Page Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"Clip Page": {
+            "url": "https://clip.page/{username}",
+            "check_text": [
+                "Customs</button>",
+                "></i> Custom"
+            ],
+              "not_found_text": [
+                "Not Found</title>"
+            ],
+            "category": "adult video and photo"
+        },
+	"Chaturbate": {
+            "url": "https://chaturbate.com/{username}/",
+            "check_text": [
+                "live on Chaturbate!",
+                ">Bio</div>",
+                "Last Broadcast:</div>",
+                "Room is currently offline</div>,
+                "I am:</div>"
+            ],
+              "not_found_text": [
+                "<h1>HTTP 404 - Page Not Found",
+                "Pornstar Free Cams</title>"
+            ],
+            "category": "camming"      
+        },
+	"Webcam-Archiver": {
+            "url": "https://webcam-archiver.com/search/?query={username}",
+            "check_text": [
+                "Download</a>",
+                ">Big Preview"
+            ],
+              "not_found_text": [
+                "<h4>0 Result's"
+            ],
+            "category": "camming"
         },
 	"Jerkmate (pornstars)": {
             "url": "https://jerkmate.com/pornstar/{username}",
@@ -895,6 +1167,37 @@
             ],
             "category": "camming"
         },
+	"Cowboys4Angels": {
+            "url": "https://cowboys4angels.com/cowboys/{username}/",
+            "check_text": [
+                "<h1>About",
+                "View His Rates</div>"
+            ],
+              "not_found_text": [
+                "Page not found"
+            ],
+            "category": "escort"
+        },
+	"Models-World": {
+            "url": "https://models-world.com/profile/{username}/",
+            "check_text": [
+                "- Located in"
+            ],
+              "not_found_text": [
+                "<title>MODELS WORLD"
+            ],
+            "category": "escort"
+        },
+	"Eros Escorts": {
+            "url": "https://erosescorts.net/{username}/",
+            "check_text": [
+                "Escort Profile -"
+            ],
+              "not_found_text": [
+                "<title>Escorts directory"
+            ],
+            "category": "escort"
+        },
 	"Grazia (International)": {
             "url": "https://grazia-escort.com/en/models/{username}/",
             "check_text": [
@@ -947,7 +1250,7 @@
             ],
             "category": "escort"
          },
-                "RentMen": {
+                "Rent.Men": {
             "url": "https://rent.men/{username}",
             "check_text": [
                 "Current location"
@@ -970,7 +1273,7 @@
             ],
             "category": "escort"
          },
-                "EROS": {
+                "Eros.com": {
             "url": "https://eros.com/search/text?sch={username}&loc=",
             "check_text": [
                 "United States"
