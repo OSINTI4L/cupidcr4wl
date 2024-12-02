@@ -869,17 +869,6 @@
             ],
             "category": "adult video and photo"
         },
-	"Thumbzilla": {
-            "url": "https://www.thumbzilla.com/pornstars/{username}",
-            "check_text": [
-                "Porn Videos from Thumbzilla</title>"
-            ],
-              "not_found_text": [
-                "Page not Found</span>",
-		"We're sorry, but the requested"
-            ],
-            "category": "adult video and photo"
-        },
 	"Sexy Modern Bull": {
             "url": "https://www.sexymodernbull.com/models/{username}",
             "check_text": [
