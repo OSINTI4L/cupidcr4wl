@@ -1334,7 +1334,8 @@
                 "results"
             ],
               "not_found_text": [
-                "Your search returned no matches."
+                "Your search returned no matches.",
+		"Page Not Found"
             ],
             "category": "escort"
          },
@@ -1344,7 +1345,8 @@
                 "results"
             ],
               "not_found_text": [
-                "Your search returned no matches."
+                "Your search returned no matches.",
+		"Page Not Found"
             ],
             "category": "escort"
          },
