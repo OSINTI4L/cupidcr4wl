@@ -27,9 +27,9 @@ cupidcr4wl **will** search and return results for platforms that host content fo
 ## Requirements
 - Python 3.6 or higher
 
-- ```requests```
+  - ```requests```
 
-- ```rich```
+  - ```rich```
 
 ## Installation
 
