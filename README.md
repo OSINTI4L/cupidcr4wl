@@ -24,6 +24,13 @@ cupidcr4wl **will** search and return results for platforms that host content fo
 
 </div>
 
+## Requirements
+- Python 3.6 or higher
+
+- ```requests```
+
+- ```rich```
+
 ## Installation
 
 1) Clone the repository:
