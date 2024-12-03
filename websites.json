@@ -438,16 +438,6 @@
             ],
             "category": "adult video and photo"
         },
-	"RealGfPorn (search)": {
-            "url": "https://www.realgfporn.com/search/{username}/page1.html",
-            "check_text": [
-                ">1</span>"
-            ],
-              "not_found_text": [
-                "Sorry, no results were found."
-            ],
-            "category": "adult video and photo"
-        },
 	"BabesDirectory": {
             "url": "https://babesdirectory.online/profile/{username}",
             "check_text": [
@@ -1256,11 +1246,12 @@
                 "HOT": {
             "url": "https://hot.com/us/escorts?q={username}",
             "check_text": [
-                "Results are shown for"
+                ">model &quot;"
             ],
               "not_found_text": [
                 "Your request does not match any item.",
-                "Try changing your request"
+                "Try changing your request",
+		"</span> does not match"
             ],
             "category": "escort"
          },
