@@ -667,6 +667,36 @@
                 "User not found"
             ],
             "category": "adult video and photo"
+        },
+	"nsfw.xxx (search)": {
+            "url": "https://nsfw.xxx/search?q={username}",
+            "check_text": [
+                "</b> search on reddit"
+            ],
+              "not_found_text": [
+                "<h1>No posts found, try another search</h1>"
+            ],
+            "category": "adult video and photo"
+        },
+	"nsfw.xxx (user)": {
+            "url": "https://nsfw.xxx/user/{username}",
+            "check_text": [
+                "Porn Pictures and"
+            ],
+              "not_found_text": [
+                "user is not found"
+            ],
+            "category": "adult video and photo"
+        },
+	"eporner": {
+            "url": "https://www.eporner.com/profile/{username}/",
+            "check_text": [
+                ">Subscribe</div>"
+            ],
+              "not_found_text": [
+                "Profile not found."
+            ],
+            "category": "adult video and photo"
          },
                 "Motherless": {
             "url": "https://www.motherless.com/m/{username}",
