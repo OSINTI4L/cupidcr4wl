@@ -217,6 +217,30 @@
                 "couldn't find this account"
             ],
             "category": "social"
+        },
+	"Sext Panther": {
+            "url": "https://www.sextpanther.com/{username}",
+            "check_text": [
+                "media.sextpanther.com/v2"
+            ],
+              "not_found_text": [
+                "localhost",
+		"<p>We can't seem to find that page</p>"
+            ],
+            "category": "social"
+        },
+	"NiteFlirt": {
+            "url": "https://www.niteflirt.com/search?text={username}",
+            "check_text": [
+                "send text",
+                "send mail",
+                "listen now",
+                "/profile/"
+            ],
+              "not_found_text": [
+                "We're sorry, we were not able to find"
+            ],
+            "category": "social"
          },
 		"Tinder": {
             "url": "https://www.tinder.com/@{username}",
@@ -726,17 +750,6 @@
             ],
               "not_found_text": [
                 "robots"
-            ],
-            "category": "adult video and photo"
-        },
-	"Sext Panther": {
-            "url": "https://www.sextpanther.com/{username}",
-            "check_text": [
-                "media.sextpanther.com/v2"
-            ],
-              "not_found_text": [
-                "localhost",
-		"<p>We can't seem to find that page</p>"
             ],
             "category": "adult video and photo"
          },
