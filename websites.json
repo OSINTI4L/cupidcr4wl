@@ -89,7 +89,8 @@
                 "BYBIO</title>"
             ],
               "not_found_text": [
-                "404 not found"
+                "404 not found",
+		"<title>Bybio"
             ],
             "category": "social"
          },
@@ -1015,6 +1016,16 @@
             ],
               "not_found_text": [
                 "<h4>0 Result's"
+            ],
+            "category": "camming"
+        },
+	"Masturbate and Chill": {
+            "url": "https://www.live.masturbateandchill.com/en/chat/{username}#!",
+            "check_text": [
+                "<title>Free Live Sex Chat With"
+            ],
+              "not_found_text": [
+                "<title>www.live.masturbateandchill.com"
             ],
             "category": "camming"
         },
