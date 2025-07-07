@@ -1559,23 +1559,6 @@
                 "oops"
             ],
             "category": "escort"
-         },
-                "Massage Red Velvet Tug (Uganda, Africa)": {
-            "url": "https://redvelvetug.com/listing/{username}/",
-            "check_text": [
-                "Age",
-                "Sexuality"
-            ],
-              "not_found_text": [
-                "Not Found",
-                "not found on this server.",
-                "The page you are looking for is not here.",
-                "404 NOT FOUND",
-                "Oops! That page can't be found!",
-                "Page not found",
-                "P404 page for London Stars"
-            ],
-            "category": "escort"
         },
 	"Exotic RW (Rwanda, Africa)": {
             "url": "https://www.exoticrw.com/escort/{username}/",
@@ -1945,17 +1928,6 @@
             ],
               "not_found_text": [
                 "Page Not Found"
-            ],
-            "category": "escort"
-        },
-	"Lady Escorts (Dubai)": {
-            "url": "https://ladyescorts.com/girl/{username}/",
-            "check_text": [
-                "Age:</span>",
-                "Height:</span>"
-            ],
-              "not_found_text": [
-                "404, Oops! Page Not Found."
             ],
             "category": "escort"
         },
