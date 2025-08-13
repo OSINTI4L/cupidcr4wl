@@ -316,19 +316,6 @@
             ],
             "category": "dating and hook-up"
         },
-	"All Things Worn (underwear sales)": {
-            "url": "https://www.allthingsworn.com/profile/{username}",
-            "check_text": [
-                "tab=followers",
-		"tab=following",
-		">Gender:"
-            ],
-              "not_found_text": [
-                "Sell Used Panties, Underwear and",
-		"<li>This member has either changed"
-            ],
-            "category": "fetish"
-        },
 	"Tasty Slips (underwear sales)": {
             "url": "https://tastyslips.com/en/vendors/{username}",
             "check_text": [
@@ -451,18 +438,6 @@
             ],
               "not_found_text": [
                 "Page is not found: deleted or never existed"
-            ],
-            "category": "adult video and photo"
-         },
-	"youx.xxx": {
-            "url": "https://www.youx.xxx/tag/{username}/",
-            "check_text": [
-                "<b>Born:</b>",
-                "<b>Height:</b>",
-                "<b>Hair Color:</b>"
-            ],
-              "not_found_text": [
-                ">Sorry, no galleries found.</div>"
             ],
             "category": "adult video and photo"
          },
@@ -1309,17 +1284,6 @@
             ],
               "not_found_text": [
                 "<title>Not Found</title>"
-            ],
-            "category": "camming"
-        },
-	"SinParty": {
-            "url": "https://sinparty.com/{username}",
-            "check_text": [
-                "profile on SinParty for their"
-            ],
-              "not_found_text": [
-                "Free Adult Live Cams</title>",
-		"Gay Live Cams</title>"
             ],
             "category": "camming"
         },
