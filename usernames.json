@@ -1574,17 +1574,6 @@
             ],
             "category": "escort"
          },
-                "Major Escorts (London, UK)": {
-            "url": "https://majorescorts.co.uk/all-london-escorts/{username}/",
-            "check_text": [
-                "SERVICES"
-            ],
-              "not_found_text": [
-                "Not Found",
-                "not found on this server."
-            ],
-            "category": "escort"
-         },
                 "Open Adult Directory BDSM Search": {
             "url": "https://openadultdirectory.com/oad_search.php?kw={username}&dir=bdsm",
             "check_text": [
