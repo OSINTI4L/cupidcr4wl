@@ -82,17 +82,17 @@
             ],
             "category": "social"
          },
-                "Reddit": {
+	"Reddit": {
             "url": "https://www.reddit.com/user/{username}/",
             "check_text": [
-                "follow",
-                "posts",
+                "shreddit-profile-trophy-list",
                 "karma",
                 "cake day",
 		"posted yet"
             ],
               "not_found_text": [
-                "sorry, nobody on reddit goes by that name."
+                "sorry, nobody on reddit goes by that name.",
+                ">This account may have been banned or the username is incorrect.</p>"
             ],
             "category": "social"
         },
@@ -429,6 +429,100 @@
                 "<title>404 Not Found"
             ],
             "category": "fetish"
+         },
+	"XXXfollow": {
+            "url": "https://www.xxxfollow.com/{username}",
+            "check_text": [
+                "</b>Views</div>",
+                "</b>Followers</div>",
+                "</b>Likes</div>"
+            ],
+              "not_found_text": [
+                "<title>XXX follow - Free TikTok Porn (formerly Xfollow)</title>"
+            ],
+            "category": "adult video and photo"
+         },
+	"WatchMyGF": {
+            "url": "https://www.watchmygf.me/girls/{username}/",
+            "check_text": [
+                "<span>Age:",
+                "<span>Name:",
+                ">Subscribe</span>"
+            ],
+              "not_found_text": [
+                "Page is not found: deleted or never existed"
+            ],
+            "category": "adult video and photo"
+         },
+	"youx.xxx": {
+            "url": "https://www.youx.xxx/tag/{username}/",
+            "check_text": [
+                "<b>Born:</b>",
+                "<b>Height:</b>",
+                "<b>Hair Color:</b>"
+            ],
+              "not_found_text": [
+                ">Sorry, no galleries found.</div>"
+            ],
+            "category": "adult video and photo"
+         },
+	"VR PORN": {
+            "url": "https://vrporn.com/pornstars/{username}/",
+            "check_text": [
+                ">Follow</div>"
+            ],
+              "not_found_text": [
+                "We're sorry, but this page wasn't found.</p>",
+                "pornstar-item-name ranking"
+            ],
+            "category": "adult video and photo"
+         },
+	"badoink vr": {
+            "url": "https://badoinkvr.com/vr-pornstar/{username}/",
+            "check_text": [
+                "Measurements:</span>",
+                ">Height:</span>",
+                ">Eyes:</span>"
+            ],
+              "not_found_text": [
+                "This page does not exist</h1>"
+            ],
+            "category": "adult video and photo"
+         },
+	"Wankz VR": {
+            "url": "https://www.wankzvr.com/{username}",
+            "check_text": [
+                ">Birthplace:</span>",
+                ">Age:</span>",
+                ">Height:</span>"
+            ],
+              "not_found_text": [
+                "Oops 404, we couldn't find the page you're looking for</h1>"
+            ],
+            "category": "adult video and photo"
+         },
+	"SexLikeReal": {
+            "url": "https://www.sexlikereal.com/pornstars/{username}",
+            "check_text": [
+                ">Date of birth</div>",
+                ">Country of Origin</div>",
+                ">Weight</div>"
+            ],
+              "not_found_text": [
+                ">Sorry... Requested page doesn't exist.</div>"
+            ],
+            "category": "adult video and photo"
+         },
+	"Babepedia": {
+            "url": "https://www.babepedia.com/babe/{username}",
+            "check_text": [
+                ">Add to favorites</button>",
+                ">Body type:</span>"
+            ],
+              "not_found_text": [
+                "Sorry, she wasn't found in our database."
+            ],
+            "category": "adult video and photo"
         },
 	"Tranny Videosx": {
             "url": "https://trannyvideosx.com/user/{username}",
