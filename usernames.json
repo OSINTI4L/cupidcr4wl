@@ -1937,16 +1937,6 @@
             ],
             "category": "escort"
         },
-	"Oklute (India)": {
-            "url": "https://hi.oklute.com/call-girls/?q={username}",
-            "check_text": [
-                "Results for:"
-            ],
-              "not_found_text": [
-                "Your search returned no results"
-            ],
-            "category": "escort"
-        },
 	"New Zealand Girls (New Zealand)": {
             "url": "https://www.newzealandgirls.co.nz/all/nzgirls.php?keyword={username}&go_keyword=Go%21",
             "check_text": [
