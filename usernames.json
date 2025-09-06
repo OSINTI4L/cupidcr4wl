@@ -197,6 +197,17 @@
             ],
             "category": "dating and hook-up"
         },
+	"Fab Swingers": {
+            "url": "https://www.fabswingers.com/profile/{username}",
+            "check_text": [
+                "<h2>Looking For</h2>",
+                "<h2>Meeting</h2>"
+            ],
+              "not_found_text": [
+                "<h1>The user you tried to view doesn't seem to be on the site any more<p>"
+            ],
+            "category": "dating and hook-up"
+        },
 	"Swapfinder": {
             "url": "https://swapfinder.com/profile/{username}",
             "check_text": [
