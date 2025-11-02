@@ -893,16 +893,6 @@
             ],
             "category": "adult video and photo"
          },
-                "PornMZ": {
-            "url": "https://www.pornmz.com/pmvideo/s/{username}",
-            "check_text": [
-                "Newest"
-            ],
-              "not_found_text": [
-                "Page not found"
-            ],
-            "category": "adult video and photo"
-         },
                 "YouPorn (channels)": {
             "url": "https://www.youporn.com/channel/{username}/",
             "check_text": [
