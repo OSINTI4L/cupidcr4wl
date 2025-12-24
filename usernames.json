@@ -166,7 +166,8 @@
             "url": "https://fancentro.com/{username}",
             "check_text": [
                 "Subscribe",
-		">followers"
+				">followers",
+				"modelSlug"
             ],
               "not_found_text": [
                 "Porn Videos"
@@ -285,18 +286,6 @@
             ],
             "category": "dating and hook-up"
         },
-	"Love A Pirsoner": {
-            "url": "https://loveaprisoner.com/?s={username}",
-            "check_text": [
-                "search-results elementor",
-                "/member-profile/"
-            ],
-              "not_found_text": [
-                "<p>It seems we can",
-		"casino"
-            ],
-            "category": "dating and hook-up"
-        },
 	"Inmate Classified (search)": {
             "url": "https://www.inmate.com/?s={username}&post_type=inmate",
             "check_text": [
@@ -382,16 +371,6 @@
             ],
               "not_found_text": [
                 "<p>Something went wrong</p>"
-            ],
-            "category": "fetish"
-        },
-	"Love Her Feet": {
-            "url": "https://www.loveherfeet.com/tour/search.php?query={username}&f=all",
-            "check_text": [
-                "item-title"
-            ],
-              "not_found_text": [
-                "No videos or photos were found."
             ],
             "category": "fetish"
         },
@@ -506,7 +485,8 @@
                 ">Body type:</span>"
             ],
               "not_found_text": [
-                "Sorry, she wasn't found in our database."
+                "Sorry, she wasn't found in our database.",
+                "There's no exact match in our database."
             ],
             "category": "adult video and photo"
         },
@@ -831,26 +811,6 @@
                 "User not found"
             ],
             "category": "adult video and photo"
-        },
-	"nsfw.xxx (search)": {
-            "url": "https://nsfw.xxx/search?q={username}",
-            "check_text": [
-                "</b> search on reddit"
-            ],
-              "not_found_text": [
-                "<h1>No posts found, try another search</h1>"
-            ],
-            "category": "adult video and photo"
-        },
-	"nsfw.xxx (user)": {
-            "url": "https://nsfw.xxx/user/{username}",
-            "check_text": [
-                "Porn Pictures and"
-            ],
-              "not_found_text": [
-                "user is not found"
-            ],
-            "category": "adult video and photo"
          },
                 "Motherless": {
             "url": "https://www.motherless.com/m/{username}",
@@ -879,7 +839,8 @@
             ],
               "not_found_text": [
                 "404",
-                "Hmm, something's wrong."
+                "Hmm, something's wrong.",
+				"Oops, page not found"
             ],
             "category": "adult video and photo"
          },
@@ -890,16 +851,6 @@
             ],
               "not_found_text": [
                 "Filter By Gender"
-            ],
-            "category": "adult video and photo"
-         },
-                "PornMZ": {
-            "url": "https://www.pornmz.com/pmvideo/s/{username}",
-            "check_text": [
-                "Newest"
-            ],
-              "not_found_text": [
-                "Page not found"
             ],
             "category": "adult video and photo"
          },
@@ -1628,27 +1579,6 @@
             ],
             "category": "escort"
         },
-	"Exotic Namibia (Namibia, Africa)": {
-            "url": "https://www.exoticnamibia.com/escort/{username}/",
-            "check_text": [
-                "Hookups with Nambian Escort for Massage, Sex</title>"
-            ],
-              "not_found_text": [
-                "<title>Exotic Escorts Namibia"
-            ],
-            "category": "escort"
-        },
-	"Exotic Benin (Benin, Africa)": {
-            "url": "https://www.exoticbenin.com/escort/{username}/",
-            "check_text": [
-                " - Meilleures escortes"
-            ],
-              "not_found_text": [
-                "<title>Meilleures escortes",
-				"<!-- NORMAL PROFILES start -->"
-            ],
-            "category": "escort"
-        },
 	"Exotic Mali (Mali, Africa)": {
             "url": "https://www.exoticmali.com/escort/{username}/",
             "check_text": [
@@ -1698,21 +1628,6 @@
             ],
               "not_found_text": [
                 "faq"
-            ],
-            "category": "escort"
-         },
-                "Top Companions (Brussels, Belgium)": {
-            "url": "https://topcompanions.com/models/{username}",
-            "check_text": [
-                "Age"
-            ],
-              "not_found_text": [
-                "Not Found",
-                "not found on this server.",
-                "The page you are looking for is not here.",
-                "404 NOT FOUND",
-                "Oops! That page can't be found!",
-                "Page not found"
             ],
             "category": "escort"
         },
@@ -1876,19 +1791,6 @@
               "not_found_text": [
                 "<h2>404</h2>",
                 "<h3>page not found</h3>"
-            ],
-            "category": "escort"
-        },
-	"ShemaleCanada (Canada)": {
-            "url": "https://shemalecanada.com/escort/{username}",
-            "check_text": [
-                " | ShemaleCanada.com</title>",
-                ">Availability:</span>",
-                ">Location:</span>"
-            ],
-              "not_found_text": [
-                ">404</h1>",
-                ">Page not found</p>"
             ],
             "category": "escort"
         },
