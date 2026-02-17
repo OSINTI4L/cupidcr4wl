@@ -1060,26 +1060,6 @@
             ],
             "category": "adult video and photo"
         },
-	"PornHat (Models)": {
-            "url": "https://www.pornhat.com/models/{username}/",
-            "check_text": [
-                "free HD porn videos - PornHat</title>"
-            ],
-              "not_found_text": [
-                "<title>Page Not Found</title>"
-            ],
-            "category": "adult video and photo"
-        },
-	"PornHat (Channels)": {
-            "url": "https://www.pornhat.com/sites/{username}/",
-            "check_text": [
-                "free HD porn videos - PornHat</title>"
-            ],
-              "not_found_text": [
-                "<title>Page Not Found</title>"
-            ],
-            "category": "adult video and photo"
-        },
 	"PornMD": {
             "url": "https://www.pornmd.com/pornstar/{username}",
             "check_text": [
