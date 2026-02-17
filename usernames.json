@@ -1333,6 +1333,28 @@
             ],
             "category": "camming"
         },
+	"Rent.Love": {
+            "url": "https://rent.love/{username}",
+            "check_text": [
+                "Rent.Love</title>",
+                "<h1>About Me</h1>"
+            ],
+              "not_found_text": [
+                "The page you are looking for can not be found"
+            ],
+            "category": "escort"
+        },
+	"ts4rent": {
+            "url": "https://ts4rent.eu/{username}",
+            "check_text": [
+                ">About Me</h2>",
+                "TS4Rent.eu</title>"
+            ],
+              "not_found_text": [
+                "<title>Not Found</title>"
+            ],
+            "category": "escort"
+        },
 	"Mynt Models (NY, DAL, LA)": {
             "url": "https://www.myntmodels.com/escort-model/{username}/",
             "check_text": [
