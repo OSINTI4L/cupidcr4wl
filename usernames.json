@@ -242,16 +242,6 @@
                 "verify-v1"
             ],
             "category": "dating and hook-up"
-         },
-                "live.Xdating": {
-            "url": "https://live.xdating.com/{username}/bio",
-            "check_text": [
-                "followers"
-            ],
-              "not_found_text": [
-                "error, page not found"
-            ],
-            "category": "dating and hook-up"
         },
 	"FriendFinder-X": {
             "url": "https://www.friendfinder-x.com/profile/{username}",
@@ -391,19 +381,6 @@
             ],
               "not_found_text": [
                 "Page not found"
-            ],
-            "category": "fetish"
-        },
-	"Fetish.com": {
-            "url": "https://www.fetish.com/p/{username}/",
-            "check_text": [
-                ">Send message</span>",
-                "<h3>Interested in",
-                "About me",
-                "This profile is only visible for users who are logged in</h2>"
-            ],
-              "not_found_text": [
-                "<title>404 Not Found"
             ],
             "category": "fetish"
          },
@@ -1650,7 +1627,8 @@
                 "more about"
             ],
               "not_found_text": [
-                "meet high class escorts"
+                "meet high class escorts",
+                "</i> Oops!</h2>"
             ],
             "category": "escort"
         },
