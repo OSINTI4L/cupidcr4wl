@@ -383,6 +383,28 @@
                 "Page not found"
             ],
             "category": "fetish"
+        },
+	"Fapello": {
+            "url": "https://fapello.com/{username}/",
+            "check_text": [
+                "flex font-semibold mb-3 space-x-2  dark:text-gray-10",
+                ">Media</strong>"
+            ],
+              "not_found_text": [
+                "<title>Page Not Found - Fapello</title>"
+            ],
+            "category": "adult video and photo"
+        },
+	"Leaked Zone": {
+            "url": "https://leakedzone.com/{username}",
+            "check_text": [
+                "OnlyFans Hot Photos & Videos</title>",
+                "<span>RECENT</span>"
+            ],
+              "not_found_text": [
+                "<title>Error Page</title>"
+            ],
+            "category": "adult video and photo"
          },
 	"XXXfollow": {
             "url": "https://www.xxxfollow.com/{username}",
