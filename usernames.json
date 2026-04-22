@@ -92,7 +92,8 @@
             ],
               "not_found_text": [
                 "sorry, nobody on reddit goes by that name.",
-                ">This account may have been banned or the username is incorrect.</p>"
+                ">This account may have been banned or the username is incorrect.</p>",
+				">Explore Reddit Communities</span>"
             ],
             "category": "social"
         },
