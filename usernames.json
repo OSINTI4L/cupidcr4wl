@@ -81,21 +81,6 @@
 		"<title>Bybio"
             ],
             "category": "social"
-         },
-	"Reddit": {
-            "url": "https://www.reddit.com/user/{username}/",
-            "check_text": [
-                "shreddit-profile-trophy-list",
-                "karma",
-                "cake day",
-		"posted yet"
-            ],
-              "not_found_text": [
-                "sorry, nobody on reddit goes by that name.",
-                ">This account may have been banned or the username is incorrect.</p>",
-				">Explore Reddit Communities</span>"
-            ],
-            "category": "social"
         },
 	"Snapchat": {
             "url": "https://snapchat.com/add/{username}",
