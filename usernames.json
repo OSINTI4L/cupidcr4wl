@@ -283,7 +283,7 @@
 	"Tasty Slips (underwear sales)": {
             "url": "https://tastyslips.com/en/vendors/{username}",
             "check_text": [
-                ">About me</h2>"
+                "tastyslips.com/en/vendors/"
             ],
               "not_found_text": [
                 "The website was not found. Feel free to check out tastyslips.com",
@@ -334,7 +334,7 @@
                 "<span>Follow</span>"
             ],
               "not_found_text": [
-                "<p>Something went wrong</p>"
+                "<p>No Longer Available</p>"
             ],
             "category": "fetish"
         },
@@ -357,6 +357,14 @@
                 "Page not found"
             ],
             "category": "fetish"
+        },
+	"Only4Search (OnlyFans)": {
+            "url": "https://only4search.com/onlyfans-search",
+            "method": "POST",
+            "data": {"q": "{username}"},
+            "check_text": ["showProfile"],
+            "not_found_text": ["There are no profiles"],
+            "category": "adult video and photo"
         },
 	"Fapello": {
             "url": "https://fapello.com/{username}/",
@@ -407,11 +415,13 @@
 	"VR PORN": {
             "url": "https://vrporn.com/pornstars/{username}/",
             "check_text": [
-                ">Follow</div>"
+                ">Birthday:</span>",
+                ">Eyecolor:</span>"
             ],
               "not_found_text": [
                 "We're sorry, but this page wasn't found.</p>",
-                "pornstar-item-name ranking"
+                "pornstar-item-name ranking",
+                "<title>Something Went Wrong"
             ],
             "category": "adult video and photo"
          },
@@ -442,12 +452,12 @@
 	"SexLikeReal": {
             "url": "https://www.sexlikereal.com/pornstars/{username}",
             "check_text": [
-                ">Date of birth</div>",
-                ">Country of Origin</div>",
-                ">Weight</div>"
+                "followers</span>",
+                "<!--$-->Aliases<!--/-->"
             ],
               "not_found_text": [
-                ">Sorry... Requested page doesn't exist.</div>"
+                ">Sorry... Requested page doesn't exist.</div>",
+                "Hmm, you weren’t supposed to see this"
             ],
             "category": "adult video and photo"
          },
@@ -502,16 +512,6 @@
             ],
               "not_found_text": [
                 "<title>Babe not found 404"
-            ],
-            "category": "adult video and photo"
-        },
-	"Boobpedia": {
-            "url": "https://www.boobpedia.com/wiki/index.php?title=Special:Search&profile=all&search={username}&fulltext=1",
-            "check_text": [
-                "Page title matches"
-            ],
-              "not_found_text": [
-                "There were no results matching the query."
             ],
             "category": "adult video and photo"
         },
@@ -740,16 +740,6 @@
             ],
             "category": "adult video and photo"
          },
-                "Motherless": {
-            "url": "https://www.motherless.com/m/{username}",
-            "check_text": [
-                "Add friend"
-            ],
-              "not_found_text": [
-                "Oh damn!"
-            ],
-            "category": "adult video and photo"
-         },
                 "RedGIFs": {
             "url": "https://www.redgifs.com/users/{username}",
             "check_text": [
@@ -820,17 +810,6 @@
             "url": "https://www.frolicme.com/models/{username}/",
             "check_text": [
                 "naughty content featuring"
-            ],
-              "not_found_text": [
-                "page not found"
-            ],
-            "category": "adult video and photo"
-        },
-	"Fanvue": {
-            "url": "https://www.fanvue.com/{username}",
-            "check_text": [
-                "posts",
-                "show more"
             ],
               "not_found_text": [
                 "page not found"
@@ -1221,6 +1200,16 @@
             ],
             "category": "camming"
         },
+	"Eros": {
+            "url": "https://www.eros.com/search?q={username}",
+            "check_text": [
+                "profile-item-default profile-item-standard"
+            ],
+              "not_found_text": [
+                "> No Results </div>"
+            ],
+            "category": "escort"
+        },
 	"Rent.Love": {
             "url": "https://rent.love/{username}",
             "check_text": [
@@ -1229,17 +1218,6 @@
             ],
               "not_found_text": [
                 "The page you are looking for can not be found"
-            ],
-            "category": "escort"
-        },
-	"ts4rent": {
-            "url": "https://ts4rent.eu/{username}",
-            "check_text": [
-                ">About Me</h2>",
-                "TS4Rent.eu</title>"
-            ],
-              "not_found_text": [
-                "<title>Not Found</title>"
             ],
             "category": "escort"
         },
@@ -1582,18 +1560,6 @@
             ],
               "not_found_text": [
                 "error 404"
-            ],
-            "category": "escort"
-        },
-	"Telaviv-Escort (Telaviv)": {
-            "url": "https://telaviv-escort.com/model/{username}",
-            "check_text": [
-                "<td>Ethnicity:</td>",
-                "<td>Age:</td>",
-                "<td>Availability:</td>"
-            ],
-              "not_found_text": [
-                "404 not found"
             ],
             "category": "escort"
         },
