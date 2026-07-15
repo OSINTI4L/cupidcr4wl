@@ -500,28 +500,6 @@
             ],
             "category": "adult video and photo"
         },
-	"Tube Galore (pornstars)": {
-            "url": "https://www.tubegalore.com/pornstar/{username}",
-            "check_text": [
-                "results found",
-                "1</a>"
-            ],
-              "not_found_text": [
-                "404 not found"
-            ],
-            "category": "adult video and photo"
-        },
-	"Tube Galore (channels)": {
-            "url": "https://www.tubegalore.com/source/{username}",
-            "check_text": [
-                "results found",
-                "1</a>"
-            ],
-              "not_found_text": [
-                "404 not found"
-            ],
-            "category": "adult video and photo"
-        },
 	"Shesfreaky": {
             "url": "https://www.shesfreaky.com/profile/{username}/",
             "check_text": [
@@ -529,16 +507,6 @@
             ],
               "not_found_text": [
                 "<p>The requested file was not found on this server.</p>"
-            ],
-            "category": "adult video and photo"
-        },
-	"Playboy App": {
-            "url": "https://www.playboy.com/app/{username}",
-            "check_text": [
-                "exclusive content on Playboy | The Playboy Club<title>"
-            ],
-              "not_found_text": [
-                "<title>Not Found"
             ],
             "category": "adult video and photo"
         },
@@ -1045,16 +1013,6 @@
             ],
             "category": "adult video and photo"
         },
-	"PornMD": {
-            "url": "https://www.pornmd.com/pornstar/{username}",
-            "check_text": [
-                "Videos and Porn Movies :: PornMD"
-            ],
-              "not_found_text": [
-                "Oops! We could not find the requested page."
-            ],
-            "category": "adult video and photo"
-        },
 	"Yuvutu (search)": {
             "url": "http://www.yuvutu.com/modules.php?name=Video&op=search&keywords={username}",
             "check_text": [
@@ -1384,16 +1342,6 @@
             ],
               "not_found_text": [
                 "<title>MODELS WORLD"
-            ],
-            "category": "escort"
-        },
-	"Eros Escorts": {
-            "url": "https://erosescorts.net/{username}/",
-            "check_text": [
-                "Escort Profile -"
-            ],
-              "not_found_text": [
-                "<title>Escorts directory"
             ],
             "category": "escort"
         },
