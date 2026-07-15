@@ -18,7 +18,7 @@ ASCII_ART = r"""
   [bold cyan]_______  ______  (_)___/ /_________/ // /_      __/ /
  [bold magenta]/ ___/ / / / __ \/ / __  / ___/ ___/ // /| | /| / / / 
 [bold blue]/ /__/ /_/ / /_/ / / /_/ / /__/ /  /__  __/ |/ |/ / /  
-[bold cyan]\___/\__,_/ .___/_/\__,_/\___/_/ v2.1/_/  |__/|__/_/   
+[bold cyan]\___/\__,_/ .___/_/\__,_/\___/_/ v2.2/_/  |__/|__/_/   
          [bold magenta]/_/                                            
 """
 
@@ -121,10 +121,19 @@ def check_single_site(username, site, info, user_agents, write_to_file=None, deb
 
     if not url or not check_texts:
         write_message(f"[yellow]Skipping {site}: URL or check text missing.[/yellow]", write_to_file, is_html)
-        return
+        return False
+
+    # Optional POST support for sites that search via a form submission.
+    method = info.get("method", "GET").upper()
+    post_data = info.get("data")
+    if isinstance(post_data, dict):
+        post_data = {key: str(value).format(username=username) for key, value in post_data.items()}
 
     try:
-        response = requests.get(url, headers=headers, timeout=5)
+        if method == "POST":
+            response = requests.post(url, headers=headers, data=post_data, timeout=5)
+        else:
+            response = requests.get(url, headers=headers, timeout=5)
         response_code = f" (Response code: {response.status_code})" if debug else ""
         
         # Identify which specific texts matched
@@ -156,8 +165,10 @@ def check_single_site(username, site, info, user_agents, write_to_file=None, deb
     except requests.RequestException as e:
         message = f"[bold red]✗ Network error checking {site}: {str(e)}.[/bold red]"
 
-    if debug or "[green]" in message or "[yellow]" in message:
+    found = "[green]" in message or "[yellow]" in message
+    if debug or found:
         write_message(message, write_to_file, is_html)
+    return found
 
 
 # --------------------------------------------------
@@ -206,6 +217,7 @@ def check_usernames(usernames, user_agents, write_to_file=None, debug=False, use
             for category, sites in websites_by_category.items():
                 print_category_header(category, write_to_file, is_html)
 
+                category_had_hit = False
                 with ThreadPoolExecutor(max_workers=8) as executor:
                     future_to_site = {
                         executor.submit(check_single_site, username.strip(), site, info, user_agents, write_to_file, debug, is_html): site
@@ -214,12 +226,17 @@ def check_usernames(usernames, user_agents, write_to_file=None, debug=False, use
                     for future in as_completed(future_to_site):
                         site = future_to_site[future]
                         try:
-                            future.result()
+                            if future.result():
+                                category_had_hit = True
                         except Exception as e:
                             write_message(f"[bold red]Error checking {site}: {e}[bold red]", write_to_file, is_html)
 
                         progress.update(overall_task, advance=1)  # Advance the task for the overall progress
                         sleep(0.2)
+
+                # Normal mode only: flag categories that returned nothing (debug already lists every site)
+                if not category_had_hit and not debug:
+                    write_message(f"[red]✗ No results found.[/red]", write_to_file, is_html)
 
             progress.update(overall_task, completed=total_sites)  # Mark the task as completed after finishing all sites
 
