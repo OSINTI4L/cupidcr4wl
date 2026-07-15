@@ -148,18 +148,6 @@
             ],
             "category": "social"
          },
-                "Fancentro": {
-            "url": "https://fancentro.com/{username}",
-            "check_text": [
-                "Subscribe",
-				">followers",
-				"modelSlug"
-            ],
-              "not_found_text": [
-                "Porn Videos"
-            ],
-            "category": "social"
-        },
 	"Clapper App": {
             "url": "https://www.clapperapp.com/{username}",
             "check_text": [
@@ -484,19 +472,6 @@
               "not_found_text": [
                 "<legend>Error</legend>",
                 "This user does not exist."
-            ],
-            "category": "adult video and photo"
-        },
-	"Pornzog": {
-            "url": "https://pornzog.com/pornstar/{username}/",
-            "check_text": [
-                ">Aliases:",
-                ">Birth Date:",
-                ">Hair Color:"
-            ],
-              "not_found_text": [
-                "UUUPS there is no content matching your query.",
-                ">Not Found</h2>"
             ],
             "category": "adult video and photo"
         },
@@ -1013,16 +988,6 @@
             ],
             "category": "adult video and photo"
         },
-	"Yuvutu (search)": {
-            "url": "http://www.yuvutu.com/modules.php?name=Video&op=search&keywords={username}",
-            "check_text": [
-                ">1</a>"
-            ],
-              "not_found_text": [
-                "<strong>0 result(s)</strong>"
-            ],
-            "category": "adult video and photo"
-        },
 	"Yuvutu (profile)": {
             "url": "http://www.yuvutu.com/{username}",
             "check_text": [
@@ -1428,16 +1393,6 @@
             ],
             "category": "escort"
          },
-                "Eros.com": {
-            "url": "https://eros.com/search/text?sch={username}&loc=",
-            "check_text": [
-                "United States"
-            ],
-              "not_found_text": [
-                "No results"
-            ],
-            "category": "escort"
-         },
                 "tryst.link": {
             "url": "https://tryst.link/escort/{username}",
             "check_text": [
@@ -1544,16 +1499,6 @@
             ],
             "category": "escort"
         },
-	"Exotic Botswana (Botswana, Africa)": {
-            "url": "https://www.exoticbotswana.com/escort/{username}/",
-            "check_text": [
-                ", Botswana Escort for Massage"
-            ],
-              "not_found_text": [
-                "<title>Botswana Escorts"
-            ],
-            "category": "escort"
-         },
                 "Blue Label Escort (Frankfurt, Germany)": {
             "url": "https://bluelabel-escort.com/en/models/{username}/",
             "check_text": [
@@ -1814,18 +1759,6 @@
             ],
               "not_found_text": [
                 "Page Not Found"
-            ],
-            "category": "escort"
-        },
-	"Exotic-Africa (Africa)": {
-            "url": "https://www.exotic-africa.com/escort/{username}/",
-            "check_text": [
-                "<h4>Contact info:</h4>",
-                "<h4>Services:</h4>"
-            ],
-              "not_found_text": [
-                ">VIP Escorts</h3>",
-                "<h3>page not found</h3>"
             ],
             "category": "escort"
         }
