@@ -1717,6 +1717,17 @@
             ],
             "category": "escort"
         },
+	"SkipTheFakes": {
+            "url": "https://skipthefakes.com/wp-content/themes/generatepress-child/api/search.php?q={username}",
+            "check_text": [
+                "excerpt",
+                "city"
+            ],
+              "not_found_text": [
+                "listings"
+            ],
+            "category": "escort"
+        },
 	"KittyAds (International)": {
             "url": "https://www.kittyads.com/{username}",
             "check_text": [
