@@ -195,16 +195,6 @@
             ],
             "category": "dating and hook-up"
         },
-	"Date-Fans": {
-            "url": "https://date-fans.com/profile/{username}",
-            "check_text": [
-                "| Date-Fans</title>"
-            ],
-              "not_found_text": [
-                "<title>DateFans"
-            ],
-            "category": "dating and hook-up"
-        },
 	"Tagged": {
             "url": "https://www.tagged.com/{username}",
             "check_text": [
