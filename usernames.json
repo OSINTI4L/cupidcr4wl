@@ -176,7 +176,8 @@
             "url": "https://www.fabswingers.com/profile/{username}",
             "check_text": [
                 "<h2>Looking For</h2>",
-                "<h2>Meeting</h2>"
+                "<h2>Meeting</h2>",
+				"Profile only shows to registered users!"
             ],
               "not_found_text": [
                 "<h1>The user you tried to view doesn't seem to be on the site any more<p>"
@@ -326,18 +327,6 @@
             ],
             "category": "fetish"
         },
-	"Feet Finder": {
-            "url": "https://app.feetfinder.com/sellerProfile/{username}",
-            "check_text": [
-                ">Photos</div>",
-                ">Videos</div>",
-                "<span>Follow</span>"
-            ],
-              "not_found_text": [
-                "<p>No Longer Available</p>"
-            ],
-            "category": "fetish"
-        },
 	"Sinful Feet": {
             "url": "https://sinfulfeet.com/models/{username}.html",
             "check_text": [
@@ -357,14 +346,6 @@
                 "Page not found"
             ],
             "category": "fetish"
-        },
-	"Only4Search (OnlyFans)": {
-            "url": "https://only4search.com/onlyfans-search",
-            "method": "POST",
-            "data": {"q": "{username}"},
-            "check_text": ["showProfile"],
-            "not_found_text": ["There are no profiles"],
-            "category": "adult video and photo"
         },
 	"Fapello": {
             "url": "https://fapello.com/{username}/",
@@ -460,18 +441,6 @@
                 "Hmm, you weren’t supposed to see this"
             ],
             "category": "adult video and photo"
-         },
-	"Babepedia": {
-            "url": "https://www.babepedia.com/babe/{username}",
-            "check_text": [
-                ">Add to favorites</button>",
-                ">Body type:</span>"
-            ],
-              "not_found_text": [
-                "Sorry, she wasn't found in our database.",
-                "There's no exact match in our database."
-            ],
-            "category": "adult video and photo"
         },
 	"Tranny Videosx": {
             "url": "https://trannyvideosx.com/user/{username}",
@@ -502,6 +471,21 @@
             ],
               "not_found_text": [
                 "404 - page not found"
+            ],
+            "category": "adult video and photo"
+         },
+                "XHAMSTER (users)": {
+            "url": "https://www.xhamster.com/users/{username}",
+            "check_text": [
+                "{username}",
+                "xHamster</title>"
+            ],
+              "not_found_text": [
+                "This account doesn’t exist",
+                "Try searching for another.",
+                "Error Page Not Found",
+                "<title>Page Not Found</title>",
+                "User not found"
             ],
             "category": "adult video and photo"
         },
@@ -722,21 +706,6 @@
                 "body--http-status http-error-page status-404",
                 "THIS PROFILE DOESN",
                 "Unknown profile"
-            ],
-            "category": "adult video and photo"
-         },
-                "XHAMSTER (users)": {
-            "url": "https://www.xhamster.com/users/{username}",
-            "check_text": [
-                "{username}",
-                "xHamster</title>"
-            ],
-              "not_found_text": [
-                "This account doesn’t exist",
-                "Try searching for another.",
-                "Error Page Not Found",
-                "<title>Page Not Found</title>",
-                "User not found"
             ],
             "category": "adult video and photo"
          },
@@ -1157,17 +1126,6 @@
             ],
             "category": "camming"
         },
-	"Xlovecam": {
-            "url": "https://www.xlovecam.com/en/model/{username}/",
-            "check_text": [
-                "years old",
-                "about me"
-            ],
-              "not_found_text": [
-                "error 404"
-            ],
-            "category": "camming"
-        },
 	"Soul Cams": {
             "url": "https://www.soulcams.com/profile/{username}",
             "check_text": [
@@ -1199,16 +1157,6 @@
                 ">Error, page not found</div>"
             ],
             "category": "camming"
-        },
-	"Eros": {
-            "url": "https://www.eros.com/search?q={username}",
-            "check_text": [
-                "profile-item-default profile-item-standard"
-            ],
-              "not_found_text": [
-                "> No Results </div>"
-            ],
-            "category": "escort"
         },
 	"Rent.Love": {
             "url": "https://rent.love/{username}",
@@ -1362,12 +1310,10 @@
                 "HOT": {
             "url": "https://hot.com/us/escorts?q={username}",
             "check_text": [
-                ">model &quot;"
+                "result</div>"
             ],
               "not_found_text": [
-                "Your request does not match any item.",
-                "Try changing your request",
-		"</span> does not match"
+                "No results found."
             ],
             "category": "escort"
          },
@@ -1379,16 +1325,6 @@
               "not_found_text": [
                 "<h1>Page not found</h1>",
                 "The page you were looking for couldn't be found."
-            ],
-            "category": "escort"
-         },
-                "5escorts": {
-            "url": "https://www.5escorts.com/search/?keyword={username}&category=ads",
-            "check_text": [
-                "/ads/details/"
-            ],
-              "not_found_text": [
-                "Could not find what you were looking for?"
             ],
             "category": "escort"
          },
